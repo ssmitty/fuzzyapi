@@ -31,11 +31,12 @@ def home():
                 error_message = "No company name provided."
             else:
                 try:
-                    match_name, ticker, state, country, score, ticker_score = data_utils.best_match(name, combined_df, tickers_df)
+                    match_name, predicted_ticker, all_possible_tickers, state, country, score, ticker_score = data_utils.best_match(name, combined_df, tickers_df)
                     result = {
                         "input_name": name,
                         "matched_name": match_name,
-                        "ticker": ticker,
+                        "predicted_ticker": predicted_ticker,
+                        "all_possible_tickers": all_possible_tickers,
                         "state": state,
                         "country": country,
                         "match_score": score,
@@ -52,14 +53,30 @@ def home():
     if error_message:
         result_html = f"<div class='result' style='color:red;'><b>Error:</b> {error_message}</div>"
     elif result:
+        # Handle predicted_ticker as a single value or None
+        ticker_display = result['predicted_ticker']
+        if isinstance(ticker_display, list):
+            if len(ticker_display) == 0:
+                ticker_display = "None"
+            else:
+                ticker_display = ', '.join(ticker_display)
+        elif ticker_display is None:
+            ticker_display = "None"
+        # Handle all_possible_tickers as a list
+        all_possible_tickers_display = ""
+        if isinstance(result['all_possible_tickers'], list) and len(result['all_possible_tickers']) > 1:
+            all_possible_tickers_display = (
+                f"<br><b>All Possible Tickers:</b> {', '.join(result['all_possible_tickers'])}"
+            )
         result_html = (
             f"<div class='result'><b>Input:</b> {result['input_name']}<br>"
             f"<b>Matched:</b> {result['matched_name']}<br>"
-            f"<b>Ticker:</b> {result['ticker']}<br>"
+            f"<b>Predicted Ticker:</b> {ticker_display}<br>"
             f"<b>State:</b> {result['state']}<br>"
             f"<b>Country:</b> {result['country']}<br>"
             f"<b>Company Match Score:</b> {result['match_score']}<br>"
-            f"<b>Ticker Match Score:</b> {result['ticker_score']}</div>"
+            f"<b>Ticker Match Score:</b> {result['ticker_score']}"
+            f"{all_possible_tickers_display}</div>"
         )
 
     html = f'''
