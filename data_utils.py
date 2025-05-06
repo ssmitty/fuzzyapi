@@ -45,120 +45,55 @@ def load_combined_dataset(csv_path):
         raise
 
 def best_match(name, combined_df, tickers_df):
-    """Fuzzy match name in combined dataset, then get ticker from tickers dataset.
-    If multiple perfect (100) ticker matches, return both the predicted ticker (first containing user input)
-    and the complete list of all possible tickers with a perfect score.
-    Returns: matched_name, predicted_ticker, all_possible_tickers, state, country, score, ticker_score
-    """
+    """Fuzzy match name in combined dataset, then get ticker from tickers dataset."""
     try:
         if not isinstance(name, str):
             logging.warning(f"Input name is not a string: {name}")
             return None, None, None, None, None, 0, None
-        "If not a string it returns none"
-        
+        # If not a string it returns none
         companies_list = combined_df['Name'].tolist()
         logging.info(f"Searching for: {name}")
         output = process.extractOne(name, companies_list)
-        "Output holds the best match and the score"
+        # Output holds the best match and the score
         if output and len(output) == 2:
             matched_name, score = output
             logging.info(f"Best match: {matched_name} with score: {score}")
-            "If the score is below 90 it returns none"
+            # If the score is below 90 it returns none
             if score <= 89:
                 logging.info(f"Score {score} is below threshold of 90")
                 return None, None, None, None, None, score, None
-                
+
             matched_row = combined_df[combined_df['Name'] == matched_name]
             if matched_row.empty:
                 logging.warning(f"Matched name {matched_name} not found in dataset")
                 return matched_name, None, None, None, None, score, None
-            "If the matched name is not found in the dataset it returns none"
+            # If the matched name is not found in the dataset it returns none
             matched_row = matched_row.iloc[0]
             state = matched_row['State']
             country = matched_row['Country']
             logging.info(f"Found state: {state}, country: {country}")
-            "It finds the state and country of the matched name"
             # Preprocess matched_name and ticker_titles for better matching
             pre_matched_name = preprocess_name(matched_name)
             ticker_titles = tickers_df['title'].tolist()
             pre_ticker_titles = [preprocess_name(t) for t in ticker_titles]
 
-            # Debug output for troubleshooting
-            print("Matched name:", matched_name)
-            print("Preprocessed matched name:", pre_matched_name)
-            print("Sample ticker titles and preprocessed titles:")
-            for i, (orig, pre) in enumerate(zip(ticker_titles, pre_ticker_titles)):
-                if "target" in pre:
-                    print(f"{i}: {orig} -> {pre}")
-            # 1. Try exact match first
-            exact_idxs = [i for i, t in enumerate(pre_ticker_titles) if t == pre_matched_name]
-            print("Exact match indices:", exact_idxs)
-            if exact_idxs:
-                tickers = [tickers_df.iloc[i]['ticker'] for i in exact_idxs]
-                ticker_title_map = {tickers_df.iloc[i]['ticker']: ticker_titles[i] for i in exact_idxs}
-                # Find the first ticker whose title contains the user input (in original order)
-                user_input = name.lower().strip()
-                predicted_ticker = None
-                for ticker in tickers:
-                    title = ticker_title_map[ticker]
-                    if user_input in title.lower():
-                        predicted_ticker = ticker
-                        break
-                if not predicted_ticker and tickers:
-                    predicted_ticker = tickers[0]
-                logging.info(f"[EXACT] Predicted ticker: {predicted_ticker}, All possible tickers: {tickers}")
-                return matched_name, predicted_ticker, tickers, state, country, score, 100
-            else:
-                # 2. Try prefix match (ticker title starts with pre_matched_name)
-                prefix_idxs = [i for i, t in enumerate(pre_ticker_titles) if t.startswith(pre_matched_name)]
-                print("Prefix match indices:", prefix_idxs)
-                if prefix_idxs:
-                    tickers = [tickers_df.iloc[i]['ticker'] for i in prefix_idxs]
-                    ticker_title_map = {tickers_df.iloc[i]['ticker']: ticker_titles[i] for i in prefix_idxs}
-                    user_input = name.lower().strip()
-                    predicted_ticker = None
-                    for ticker in tickers:
-                        title = ticker_title_map[ticker]
-                        if user_input in title.lower():
-                            predicted_ticker = ticker
-                            break
-                    if not predicted_ticker and tickers:
-                        predicted_ticker = tickers[0]
-                    logging.info(f"[PREFIX] Predicted ticker: {predicted_ticker}, All possible tickers: {tickers}")
-                    return matched_name, predicted_ticker, tickers, state, country, score, 95
-
-            # 2. Fallback to fuzzy matching as before
-            # Use process.extract to get all matches and filter for perfect matches
+            # Fuzzy match: get all tickers with a perfect score (100)
             ticker_matches = process.extract(pre_matched_name, pre_ticker_titles, scorer=fuzz.token_set_ratio)
             top_matches = [match for match, s in ticker_matches if s == 100]
+            tickers = []
             if top_matches:
-                tickers = []
-                ticker_title_map = {}  # ticker -> original title
                 for match in top_matches:
                     idxs = [i for i, t in enumerate(pre_ticker_titles) if t == match]
                     for idx in idxs:
                         ticker_row = tickers_df.iloc[[idx]]
                         ticker = ticker_row['ticker'].values[0] if not ticker_row.empty else None
-                        title = ticker_row['title'].values[0] if not ticker_row.empty else ""
                         if ticker:
                             tickers.append(ticker)
-                            ticker_title_map[ticker] = title
                 # Remove duplicates, preserve order
                 seen = set()
                 tickers = [x for x in tickers if not (x in seen or seen.add(x))]
-
-                # Find the first ticker whose title contains the user input (in original order)
-                user_input = name.lower().strip()
-                predicted_ticker = None
-                for ticker in tickers:
-                    title = ticker_title_map[ticker]
-                    if user_input in title.lower():
-                        predicted_ticker = ticker
-                        break
-                if not predicted_ticker and tickers:
-                    # fallback: just use the first ticker in the list
-                    predicted_ticker = tickers[0]
-                logging.info(f"Predicted ticker: {predicted_ticker}, All possible tickers: {tickers}")
+                predicted_ticker = tickers[0] if tickers else None
+                logging.info(f"Perfect match tickers: {tickers}")
                 return matched_name, predicted_ticker, tickers, state, country, score, 100
             else:
                 # Fallback to previous logic: get the best match >= 90
@@ -179,11 +114,9 @@ def best_match(name, combined_df, tickers_df):
                 else:
                     logging.warning(f"No ticker match found for {matched_name}")
                     return matched_name, None, [], state, country, score, None
-            "If the ticker is not found it returns none"
         else:
             logging.warning(f"No match found for {name}")
             return None, None, None, None, None, 0, None
     except Exception as e:
         logging.error(f"Error in best_match for name '{name}': {e}")
         return None, None, None, None, None, 0, None
-
