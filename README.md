@@ -60,6 +60,8 @@ docker-compose up --build
 ## Running Tests
 
 To run the test suite:
+make sure the local host is running and open a new terminal
+In the new terminal input python3 test_api.py
 
 ```bash
 python3 test_api.py
