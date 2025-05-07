@@ -46,6 +46,3 @@ env/
 *.sqlite3
 
 # Data files
-*.csv
-*.json
-!supplemental_data/*.json  # Keep tracked json files in supplemental_data 

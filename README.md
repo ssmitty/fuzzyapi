@@ -10,7 +10,7 @@ This project provides a Flask API and web interface to fuzzy match company names
 - Docker support for easy deployment
 
 ## Data Sources
-- **Combined Dataset:** `3_combined_dataset_postproc.csv` ( main company database)
+- **Combined Dataset:** `3_combined_dataset_postproc.csv` (your main company database)
 - **Tickers Dataset:** `supplemental_data/company_tickers.csv` (merged NASDAQ and NYSE/AMEX tickers, updated via script)
 
 ## Setup
@@ -46,10 +46,6 @@ docker run -p 8080:8080 company-matcher-api
 
 Or, using Docker Compose:
 
-Can go in file and click run all services 
-
-or
-
 ```bash
 docker-compose up --build
 ```
@@ -59,7 +55,7 @@ docker-compose up --build
 - The root endpoint `/` supports both GET (form) and POST (form submission).
 - The API returns the matched company, ticker, state, country, and match scores.
 
-
+```
 
 ## Running Tests
 
@@ -69,7 +65,17 @@ To run the test suite:
 python3 test_api.py
 ```
 
-
+## Troubleshooting
+- **Port already in use:**
+  - Find and kill the process using the port:
+    ```bash
+    lsof -i :8080
+    kill <PID>
+    ```
+  - Or, change the port in `app.py` to a free port (e.g., 5000).
+- **Ticker not found for public company:**
+  - Make sure you have run `update_tickers.py` to get the latest tickers.
+  - The fuzzy matching logic now uses advanced preprocessing and token set ratio for better accuracy.
 
 ## Notes
 - The ticker dataset is now a CSV, not JSON.
