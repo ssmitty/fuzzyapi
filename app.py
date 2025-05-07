@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request, make_response
 import data_utils
 import logging
 import sys
+import subprocess
 
 app = Flask(__name__)
 
@@ -87,14 +88,53 @@ def home():
                 <link rel="stylesheet" href="/static/style.css">
             </head>
             <body>
+                <div id="loading-overlay" class="loading-overlay" style="display:none;">
+                    <div class="loading-spinner"></div>
+                    <div class="loading-text">Updating tickers dataset...</div>
+                </div>
                 <div class="container">
                     <h2>Company Matcher</h2>
-                    <form method="post">
+                    <form method="post" class="search-form">
                         <input type="text" name="name" placeholder="Enter company name" required>
                         <br>
                         <input type="submit" value="Match">
                     </form>
+                    <form method="post" action="/update_tickers" id="update-tickers-form" class="update-form">
+                        <input type="submit" value="Update Tickers Dataset">
+                    </form>
                     {result_html}
+                </div>
+                <script>
+                document.getElementById('update-tickers-form').addEventListener('submit', function() {{
+                    document.getElementById('loading-overlay').style.display = 'flex';
+                }});
+                </script>
+            </body>
+        </html>
+    '''
+    response = make_response(html)
+    response.headers["X-API-Version"] = API_VERSION
+    return response
+
+@app.route('/update_tickers', methods=['POST'])
+def update_tickers():
+    try:
+        subprocess.run(['python3', 'update_tickers.py'], check=True)
+        message = 'Tickers updated successfully.'
+    except subprocess.CalledProcessError as e:
+        message = f'Error updating tickers: {e}'
+    html = f'''
+        <html>
+            <head>
+                <title>Update Tickers</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="/static/style.css">
+            </head>
+            <body>
+                <div class="container">
+                    <h2>Update Tickers</h2>
+                    <div class='result'>{message}</div>
+                    <a href="/">Back to Home</a>
                 </div>
             </body>
         </html>
