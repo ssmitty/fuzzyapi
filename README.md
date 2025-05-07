@@ -16,18 +16,18 @@ This project provides a Flask API and web interface to fuzzy match company names
 ## Setup
 1. **Clone the repository and install dependencies:**
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 2. **Update the tickers dataset (recommended before first run):**
    ```bash
-   python update_tickers.py
+   python3 update_tickers.py
    ```
    This script downloads and merges the latest NASDAQ and NYSE/AMEX tickers into `supplemental_data/company_tickers.csv`.
 
 3. **Run the Flask app:**
    ```bash
-   python app.py
+   python3 app.py
    ```
    By default, the app runs on port 8080. If you see "Address already in use", either kill the process using that port or change the port in `app.py` (e.g., to 5000).
 
@@ -53,6 +53,7 @@ or
 ```bash
 docker-compose up --build
 ```
+#The second URL is simply for internal Docker use. Use the First url for local host access
 
 ## API Usage
 - The root endpoint `/` supports both GET (form) and POST (form submission).
@@ -65,7 +66,7 @@ docker-compose up --build
 To run the test suite:
 
 ```bash
-python test_api.py
+python3 test_api.py
 ```
 
 

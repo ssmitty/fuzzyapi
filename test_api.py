@@ -1,7 +1,7 @@
-import pytest
+
 import requests
-import time
-from data_utils import best_match
+
+
 import pandas as pd
 
 def test_company_matcher():
@@ -39,7 +39,7 @@ def test_company_matcher():
             raise Exception("Score not found for invalid input")
         print("✓ Invalid input test passed")
         
-        print("\nAll tests passed! ✨")
+        print("\nAll tests passed! ")
         
     except Exception as e:
         print(f"\n❌ Test failed: {str(e)}")

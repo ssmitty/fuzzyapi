@@ -4,3 +4,4 @@ pandas>=2.2.3
 fuzzywuzzy>=0.18.0
 numpy
 python-Levenshtein>=0.27.1
+requests
