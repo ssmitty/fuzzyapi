@@ -1,6 +1,7 @@
+print("Script started")
 
 import requests
-
+import time
 
 import pandas as pd
 
@@ -21,7 +22,10 @@ def test_company_matcher():
         
         # Test 2: Valid company name
         print("\nTest 2: Testing valid company name...")
+        start = time.time()
         response = requests.post(base_url, data={"name": "Target Corporation"})
+        end = time.time()
+        print(f"API Latency: {end - start:.4f} seconds")
         if response.status_code != 200:
             raise Exception(f"API request failed: {response.status_code}")
         if "Target" not in response.text:

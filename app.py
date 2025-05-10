@@ -3,6 +3,8 @@ import data_utils
 import logging
 import sys
 import subprocess
+import time
+import pandas as pd  # Add this import at the top if not already present
 
 app = Flask(__name__)
 
@@ -13,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 
 # Load company data at startup with error handling
 try:
-    combined_data_path = '3_combined_dataset_postproc.csv'
+    combined_data_path = 'combined_with_tickers.csv'
     tickers_data_path = 'supplemental_data/company_tickers.csv'
     combined_df = data_utils.load_combined_dataset(combined_data_path)
     tickers_df = data_utils.load_public_companies(tickers_data_path)
@@ -32,7 +34,11 @@ def home():
                 error_message = "No company name provided."
             else:
                 try:
+                    start = time.time()  # Start timing
                     match_name, predicted_ticker, all_possible_tickers, state, country, score, ticker_score = data_utils.best_match(name, combined_df, tickers_df)
+                    end = time.time()    # End timing
+                    api_latency = end - start
+                    print(f"API Latency for '{name}': {api_latency:.4f} seconds")
                     result = {
                         "input_name": name,
                         "matched_name": match_name,
@@ -69,14 +75,19 @@ def home():
             all_possible_tickers_display = (
                 f"<br><b>All Possible Tickers:</b> {', '.join(result['all_possible_tickers'])}"
             )
+        # Conditionally add State and Country if not None or NaN
+        state_val = result['state']
+        country_val = result['country']
+        state_html = f"<b>State:</b> {state_val}<br>" if pd.notna(state_val) and str(state_val).strip().lower() not in ('', 'none', 'nan') else ''
+        country_html = f"<b>Country:</b> {country_val}<br>" if pd.notna(country_val) and str(country_val).strip().lower() not in ('', 'none', 'nan') else ''
         result_html = (
             f"<div class='result'><b>Input:</b> {result['input_name']}<br>"
             f"<b>Matched:</b> {result['matched_name']}<br>"
             f"<b>Predicted Ticker:</b> {ticker_display}<br>"
-            f"<b>State:</b> {result['state']}<br>"
-            f"<b>Country:</b> {result['country']}<br>"
+            f"{state_html}"
+            f"{country_html}"
             f"<b>Company Match Score:</b> {result['match_score']}<br>"
-            f"<b>Ticker Match Score:</b> {result['ticker_score']}"
+            f"<b>Ticker Match Score:</b> {result['ticker_score']}<br>"
             f"{all_possible_tickers_display}</div>"
         )
 

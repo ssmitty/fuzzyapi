@@ -710,10 +710,6 @@ BUFC,AB Conservative Buffer ETF
 BUFI,AB International Buffer ETF
 BUFM,AB Moderate Buffer ETF
 BUG,Global X Cybersecurity ETF
-BUJA,Bukit Jalil Global Acquisition 1 Ltd. - Ordinary Shares
-BUJAR,Bukit Jalil Global Acquisition 1 Ltd. - Rights
-BUJAU,Bukit Jalil Global Acquisition 1 Ltd. - Unit
-BUJAW,Bukit Jalil Global Acquisition 1 Ltd. - Warrants
 BULD,Pacer BlueStar Engineering the Future ETF
 BULL,Webull Corporation - Class A Ordinary Shares
 BULLW,Webull Corporation - Warrants
@@ -977,7 +973,6 @@ CNOBP,"ConnectOne Bancorp, Inc. - Depositary Shares (each representing a 1/40th 
 CNSP,"CNS Pharmaceuticals, Inc. - Common Stock"
 CNTA,Centessa Pharmaceuticals plc - American Depositary Shares
 CNTB,Connect Biopharma Holdings Limited - American Depositary Shares
-CNTM,"ConnectM Technology Solutions, Inc. - Common Stock"
 CNTX,Context Therapeutics Inc. - Common Stock
 CNTY,"Century Casinos, Inc. - Common Stock"
 CNVS,Cineverse Corp. - Class A Common Stock
@@ -1338,6 +1333,7 @@ EFSI,Eagle Financial Services Inc - Common Stock
 EGAN,eGain Corporation - Common Stock
 EGBN,"Eagle Bancorp, Inc. - Common Stock"
 EGGQ,NestYield Visionary ETF
+EGHAU,EGH Acquisition Corp. - Unit
 EGHT,8x8 Inc - Common stock
 EH,EHang Holdings Limited - ADS
 EHGO,Eshallgo Inc. - Class A Ordinary Shares
@@ -1806,6 +1802,8 @@ GGR,Gogoro Inc. - Ordinary Shares
 GGROW,Gogoro Inc. - Warrant
 GH,"Guardant Health, Inc. - Common Stock"
 GHRS,GH Research PLC - Ordinary Shares
+GIBO,GIBO Holdings Limited - Class A Ordinary Shares
+GIBOW,GIBO Holdings Limited - Warrants
 GIFI,"Gulf Island Fabrication, Inc. - Common Stock"
 GIFT,"Giftify, Inc. - Common Stock"
 GIG,GigCapital7 Corp. - Class A Ordinary Share
@@ -2299,9 +2297,6 @@ IUSG,iShares Core S&P U.S. Growth ETF
 IUSV,iShares Core S&P U.S. Value ETF
 IVA,Inventiva S.A. - American Depository Shares
 IVAL,Alpha Architect International Quantitative Value ETF
-IVCA,Investcorp AI Acquisition Corp. - Class A Ordinary Shares
-IVCAU,Investcorp AI Acquisition Corp. - Unit
-IVCAW,Investcorp AI Acquisition Corp. - Warrant
 IVDA,"Iveda Solutions, Inc. - Common Stock"
 IVDAW,"Iveda Solutions, Inc. - Warrant"
 IVEG,iShares Emergent Food and AgTech Multisector ETF
@@ -4375,7 +4370,7 @@ TVRD,"Tvardi Therapeutics, Inc. - Common Stock"
 TVTX,"Travere Therapeutics, Inc. - Common Stock"
 TW,Tradeweb Markets Inc. - Class A Common Stock
 TWFG,"TWFG, Inc. - Common Stock"
-TWG,Top Wealth Group Holding Limited - Ordinary Shares
+TWG,Top Wealth Group Holding Limited - Class A Ordinary Shares
 TWIN,"Twin Disc, Incorporated - Common Stock"
 TWNP,Twin Hospitality Group Inc. - Class A Common Stock
 TWST,Twist Bioscience Corporation - Common Stock
@@ -4637,6 +4632,7 @@ WBA,"Walgreens Boots Alliance, Inc. - Common Stock"
 WBD,"Warner Bros. Discovery, Inc. - Series A Common Stock"
 WBND,Western Asset Total Return ETF
 WBTN,WEBTOON Entertainment Inc. - Common stock
+WBUY,WEBUY GLOBAL LTD. - Class A Ordinary Shares
 WCBR,WisdomTree Cybersecurity Fund
 WCLD,WisdomTree Cloud Computing Fund
 WCT,Wellchange Holdings Company Limited - Ordinary shares
@@ -4804,8 +4800,6 @@ ZBAO,Zhibao Technology Inc. - Class A Ordinary Shares
 ZBIO,"Zenas BioPharma, Inc. - Common Stock"
 ZBRA,Zebra Technologies Corporation - Class A Common Stock
 ZBZZT,Test Pilot Test Stock Class B Common Stock
-ZCAR,"Zoomcar Holdings, Inc. - Common Stock"
-ZCARW,"Zoomcar Holdings, Inc. - Warrants"
 ZCMD,Zhongchao Inc. - Class A Ordinary Shares
 ZCZZT,Tick Pilot Test Stock Class C 
 ZD,"Ziff Davis, Inc. - Common Stock"
@@ -4978,6 +4972,7 @@ AGX,"Argan, Inc. Common Stock"
 AGZ,iShares  Agency Bond ETF
 AHH,"Armada Hoffler Properties, Inc. Common Stock"
 AHH$A,"Armada Hoffler Properties, Inc. 6.75% Series A Cumulative Redeemable Perpetual Preferred Stock"
+AHL,Aspen Insurance Holdings Limited Class A Ordinary Shares
 AHL$D,Aspen Insurance Holdings Limited 5.625% Perpetual Non-Cumulative Preference Shares
 AHL$E,"Aspen Insurance Holdings Limited Depositary Shares, each representing a 1/1000th interest in a share of 5.625% Perpetual Non-Cumulative Preference Shares"
 AHL$F,"Aspen Insurance Holdings Limited Depositary Shares, each representing a 1/1,000th Interest in a 7.00% Perpetual Non-Cumulative Preference Share"
@@ -4996,6 +4991,7 @@ AIBU,Direxion Shares ETF Trust Direxion Daily AI and Big Data Bull 2X Shares
 AIEQ,Amplify ETF Trust Amplify AI Powered Equity ETF
 AIFD,TCW Artificial Intelligence ETF
 AIG,"American International Group, Inc. New Common Stock"
+AII,"American Integrity Insurance Group, Inc. Common Stock"
 AIN,Albany International Corporation Common Stock
 AINP,Allspring Exchange-Traded Funds Trust Allspring Income Plus ETF
 AIO,Virtus Artificial Intelligence & Technology Opportunities Fund Common Shares of Beneficial Interest
@@ -5124,6 +5120,7 @@ APRZ,Trust TrueShares Structured Outcome (April) ETF
 APT,"Alpha Pro Tech, Ltd. Common Stock"
 APTV,Aptiv PLC Ordinary Shares
 APUE,Trust for Professional Managers ActivePassive U.S. Equity ETF
+APUS,"Apimeds Pharmaceuticals US, Inc. Common Stock"
 APXM,First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Max Buffer ETF - April
 AQLT,iShares Trust iShares MSCI Global Quality Factor ETF
 AQN,Algonquin Power & Utilities Corp. Common Shares
@@ -5290,6 +5287,7 @@ AZTD,Tidal ETF Trust Aztlan Global Stock Selection DM SMID ETF
 AZTR,Azitra Inc Common Stock
 AZUL,Azul S.A. American Depositary Shares (each representing three preferred shares)
 AZZ,AZZ Inc.
+B,Barrick Mining Corporation Common Shares
 BA,Boeing Company (The) Common Stock
 BA$A,"Boeing Company (The) Depositary Shares, each representing a 1/20th interest in a share of 6.00% Series A Mandatory Convertible Preferred Stock, par value $1.00"
 BAB,Invesco Taxable Municipal Bond ETF
@@ -7063,6 +7061,7 @@ FOPC,The Advisors' Inner Circle Fund II Frontier Asset Opportunistic Credit ETF
 FOR,Forestar Group Inc Common Stock 
 FORH,Formidable ETF
 FOUR,"Shift4 Payments, Inc. Class A Common Stock"
+FOUR$A,"Shift4 Payments, Inc. 6.00% Series A Mandatory Convertible Preferred Stock"
 FOVL,iShares Focused Value Factor ETF
 FOWF,Pacer Funds Trust Pacer Solactive Whitney Future of Warfare ETF
 FOXO,FOXO Technologies Inc. Class A Common Stock
@@ -7348,7 +7347,6 @@ GOAU,US Global GO Gold and Precious Metal Miners ETF
 GOCT,FT Vest U.S. Equity Moderate Buffer ETF - October
 GOEX,Global X Gold Explorers ETF
 GOF,Guggenheim Strategic Opportunities Fund Common Shares of Beneficial Interest
-GOLD,Barrick Gold Corporation Common Stock (BC)
 GOLF,Acushnet Holdings Corp. Common Stock
 GOLY,Strategy Shares Gold Enhanced Yield ETF
 GOOP,Kurv Yield Premium Strategy Google (GOOGL) ETF
@@ -7573,6 +7571,7 @@ HODL,VanEck Bitcoin Trust Common Shares of Beneficial Interest
 HOG,"Harley-Davidson, Inc. Common Stock"
 HOMB,"Home BancShares, Inc. Common Stock"
 HOMZ,Hoya Capital Housing ETF
+HOOY,Tidal Trust II YieldMax HOOD Option Income Strategy ETF
 HOUS,"Anywhere Real Estate Inc. Common Stock,"
 HOV,"Hovnanian Enterprises, Inc. Class A Common Stock"
 HP,"Helmerich & Payne, Inc. Common Stock"
@@ -9526,7 +9525,6 @@ PTIN,Pacer Trendpilot International ETF
 PTL,Northern Lights Fund Trust IV Inspire 500 ETF
 PTLC,Pacer Fund Trust Pacer Trendpilot US Large Cap ETF
 PTMC,Pacer Trendpilot US Mid Cap ETF
-PTN,"Palatin Technologies, Inc. Common Stock"
 PTRB,PGIM ETF Trust PGIM Total Return Bond ETF
 PTY,Pimco Corporate & Income Opportunity Fund
 PUK,Prudential Public Limited Company Common Stock
