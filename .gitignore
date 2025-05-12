@@ -46,4 +46,4 @@ env/
 *.sqlite3
 
 # Data files
-3_combined_data_database/
+3_combined_data_dataset_postproc.csv
