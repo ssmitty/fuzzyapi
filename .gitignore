@@ -46,3 +46,4 @@ env/
 *.sqlite3
 
 # Data files
+3_combined_data_database/

@@ -1165,6 +1165,7 @@ DDI,"DoubleDown Interactive Co., Ltd. - American Depository Shares"
 DDIV,First Trust Dorsey Wright Momentum & Dividend ETF
 DDOG,"Datadog, Inc. - Class A Common Stock"
 DECO,SPDR Galaxy Digital Asset Ecosystem ETF
+DEFT,"Defi Technologies, Inc. - Common Stock"
 DEMZ,Democratic Large Cap Core ETF
 DENN,Denny's Corporation - Common Stock
 DERM,Journey Medical Corporation - Common Stock
@@ -1595,7 +1596,7 @@ FITBP,"Fifth Third Bancorp - Depositary Shares each representing 1/40th share of
 FIVE,"Five Below, Inc. - Common Stock"
 FIVN,"Five9, Inc. - Common Stock"
 FIVY,YieldMax Dorsey Wright Hybrid 5 Income ETF
-FIXD,First Trust TCW Opportunistic Fixed Income ETF
+FIXD,First Trust Smith Opportunistic Fixed Income ETF
 FIZZ,National Beverage Corp. - Common Stock
 FJP,First Trust Japan AlphaDEX Fund
 FKU,First Trust United Kingdom AlphaDEX Fund
@@ -1897,7 +1898,9 @@ GRYP,"Gryphon Digital Mining, Inc - Common Stock"
 GSAT,"Globalstar, Inc. - Common Stock"
 GSBC,"Great Southern Bancorp, Inc. - Common Stock"
 GSHD,"Goosehead Insurance, Inc. - Class A Common Stock"
+GSHR,Gesher Acquisition Corp. II - Class A Ordinary Shares
 GSHRU,Gesher Acquisition Corp. II - Units
+GSHRW,Gesher Acquisition Corp. II - Warrants
 GSIB,Themes Global Systemically Important Banks ETF
 GSIT,"GSI Technology, Inc. - Common Stock"
 GSIW,Garden Stage Limited - Ordinary Shares
@@ -2273,6 +2276,7 @@ IRON,"Disc Medicine, Inc. - Common Stock"
 IROQ,"IF Bancorp, Inc. - Common Stock"
 IRTC,"iRhythm Technologies, Inc. - Common Stock"
 IRWD,"Ironwood Pharmaceuticals, Inc. - Class A Common Stock"
+ISBA,Isabella Bank Corporation - Common stock
 ISHG,iShares 1-3 Year International Treasury Bond ETF
 ISHP,First Trust S-Network E-Commerce ETF
 ISPC,iSpecimen Inc. - Common Stock
@@ -3566,6 +3570,8 @@ QQXT,First Trust NASDAQ-100 Ex-Technology Sector Index Fund
 QRHC,Quest Resource Holding Corporation - Common Stock
 QRMI,Global X NASDAQ 100 Risk Managed Income ETF
 QRVO,"Qorvo, Inc. - Common Stock"
+QSEA,Quartzsea Acquisition Corporation - Ordinary Shares
+QSEAR,Quartzsea Acquisition Corporation - Rights
 QSEAU,Quartzsea Acquisition Corporation - Units
 QSG,QuantaSing Group Limited - American Depositary Shares
 QSI,Quantum-Si Incorporated - Class A Common Stock
@@ -3986,7 +3992,6 @@ SMXWW,SMX (Security Matters) Public Limited Company - Warrant
 SNAL,"Snail, Inc. - Class A Common Stock"
 SNBR,Sleep Number Corporation - Common Stock
 SNCR,"Synchronoss Technologies, Inc. - Common Stock"
-SNCRL,"Synchronoss Technologies, Inc. - 8.375% Senior Notes due 2026"
 SNCY,"Sun Country Airlines Holdings, Inc. - Common Stock"
 SND,"Smart Sand, Inc. - Common Stock"
 SNDK,Sandisk Corporation - Common Stock
@@ -4102,7 +4107,7 @@ STKH,Steakholder Foods Ltd. - American Depositary Shares
 STKL,"SunOpta, Inc. - Common Stock"
 STKS,"The ONE Group Hospitality, Inc. - Common Stock"
 STLD,"Steel Dynamics, Inc. - Common Stock"
-STNC,Hennessy Stance ESG ETF
+STNC,Hennessy Sustainable ETF
 STNE,StoneCo Ltd. - Class A Common Share
 STOK,"Stoke Therapeutics, Inc. - Common Stock"
 STRA,"Strategic Education, Inc. - Common Stock"
@@ -6202,7 +6207,7 @@ DECT,AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer10 Dec ETF
 DECU,AIM ETF Products Trust AllianzIM U.S. Equity Buffer15 Uncapped Dec ETF
 DECW,AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer20 Dec ETF
 DECZ,TrueShares Structured Outcome (December) ETF
-DEED,First Trust TCW Securitized Plus ETF
+DEED,First Trust Securitized Plus ETF
 DEEF,Xtrackers FTSE Developed ex US Multifactor ETF
 DEEP,Acquirers Small and Micro Deep Value ETF
 DEFI,Tidal Commodities Trust I Hashdex Bitcoin ETF
@@ -7749,6 +7754,7 @@ IEDI,iShares U.S. Consumer Focused ETF
 IEFA,iShares Core MSCI EAFE ETF
 IEMG,iShares Core MSCI Emerging Markets ETF
 IEO,iShares U.S. Oil & Gas Exploration & Production ETF
+IEQ,Lazard Active ETF Trust Lazard International Dynamic Equity ETF
 IETC,iShares U.S. Tech Independence Focused ETF
 IEUR,iShares Core MSCI Europe ETF
 IEV,iShares Europe ETF
@@ -10616,7 +10622,7 @@ TPR,"Tapestry, Inc. Common Stock"
 TPSC,Timothy Plan US Small Cap Core ETF
 TPTA,"Terra Property Trust, Inc. 6.00% Notes due 2026"
 TPVG,TriplePoint Venture Growth BDC Corp. Common Stock
-TPYP,Tortoise North American Pipeline ETF
+TPYP,Tortoise Capital Series Trust Tortoise North American Pipeline Fund
 TPZ,Tortoise Essential Energy Fund
 TR,"Tootsie Roll Industries, Inc. Common Stock"
 TRAK,"ReposiTrak, Inc. Common Stock"
@@ -10722,7 +10728,7 @@ UCB$I,"United Community Banks, Inc. Depositary Shares, each representing 1/1000t
 UCC,ProShares Ultra Consumer Discretionary
 UCIB,"ETRACS UBS Bloomberg Constant Maturity Commodity Index (CMCI) Total Return ETN Series B due April 5, 2038"
 UCO,ProShares Ultra Bloomberg Crude Oil
-UCON,First Trust TCW Unconstrained Plus Bond ETF
+UCON,First Trust Smith Unconstrained Bond ETF
 UDEC,Innovator U.S. Equity Ultra Buffer ETF - December
 UDI,USCF ETF Trust USCF Dividend Income Fund
 UDIV,Franklin U.S. Core Dividend Tilt Index ETF
@@ -10961,7 +10967,6 @@ VPU,Vanguard Utilities ETF
 VPV,Invesco Pennsylvania Value Municipal Income Trust Common Stock (DE)
 VRAI,Virtus Real Asset Income ETF
 VRE,"Veris Residential, Inc. Common Stock"
-VRN,Veren Inc. Common shares
 VRP,Invesco Variable Rate Preferred ETF
 VRT,"Vertiv Holdings, LLC Class A Common Stock"
 VRTS,"Virtus Investment Partners, Inc. Common Stock"
