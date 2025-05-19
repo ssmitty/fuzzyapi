@@ -15,9 +15,7 @@ logging.basicConfig(level=logging.INFO)
 
 # Load company data at startup with error handling
 try:
-    COMBINED_DATA_PATH = "combined_with_tickers.csv"
     TICKERS_DATA_PATH = "supplemental_data/company_tickers.csv"
-    combined_df = data_utils.load_combined_dataset(COMBINED_DATA_PATH)
     tickers_df = data_utils.load_public_companies(TICKERS_DATA_PATH)
 except Exception as err:
     logging.critical("Failed to load data at startup: %s", err)
@@ -46,7 +44,8 @@ def home():
                         country,
                         score,
                         ticker_score,
-                    ) = data_utils.best_match(name, combined_df, tickers_df)
+                        message,
+                    ) = data_utils.best_match(name, None, tickers_df)
                     end = time.time()  # End timing
                     api_latency = end - start
                     logging.info(
@@ -61,6 +60,7 @@ def home():
                         "country": country,
                         "match_score": score,
                         "ticker_score": ticker_score,
+                        "message": message,
                     }
                 except Exception as err:
                     logging.error("Error during matching: %s", err)
@@ -111,6 +111,10 @@ def home():
             and str(country_val).strip().lower() not in ("", "none", "nan")
             else ""
         )
+        message_html = (
+            f"<div class='result' style='color:orange;'><b>Note:</b> {result['message']}</div>"
+            if result.get("message") else ""
+        )
         result_html = (
             f"<div class='result'><b>Input:</b> {result['input_name']}<br>"
             f"<b>Matched:</b> {result['matched_name']}<br>"
@@ -119,7 +123,8 @@ def home():
             f"{country_html}"
             f"<b>Company Match Score:</b> {result['match_score']}<br>"
             f"<b>Ticker Match Score:</b> {result['ticker_score']}<br>"
-            f"{all_possible_tickers_display}</div>"
+            f"{all_possible_tickers_display}"
+            f"{message_html}</div>"
         )
 
     html = f"""

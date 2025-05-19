@@ -1,0 +1,51 @@
+swagger: "2.0"
+info:
+  title: Fuzzy Company Matcher API
+  version: 0.1.0
+  description: API for fuzzy company name matching and ticker lookup.
+host: 4d05-69-113-10-212.ngrok-free.app
+basePath: /
+schemes:
+  - https
+paths:
+  /:
+    get:
+      summary: Home page for company matcher
+      description: Returns the HTML form for company name matching.
+      produces:
+        - text/html
+      responses:
+        200:
+          description: HTML page with form
+          schema:
+            type: string
+    post:
+      summary: Match a company name
+      description: Submits a company name and returns the match result in HTML.
+      consumes:
+        - application/x-www-form-urlencoded
+      parameters:
+        - name: name
+          in: formData
+          description: The company name to match
+          required: true
+          type: string
+      produces:
+        - text/html
+      responses:
+        200:
+          description: HTML page with match result
+          schema:
+            type: string
+
+  /update_tickers:
+    post:
+      summary: Update tickers dataset
+      description: Triggers an update of the tickers dataset by running update_tickers.py.
+      produces:
+        - text/html
+      responses:
+        200:
+          description: HTML page with update result
+          schema:
+            type: string

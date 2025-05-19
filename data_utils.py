@@ -85,78 +85,39 @@ def best_match(name, combined_df, tickers_df):
     try:
         if not isinstance(name, str):
             logging.warning(f"Input name is not a string: {name}")
-            return None, None, None, None, None, 0, None
+            return None, None, [], None, None, 0, None, "Company is not in public company list"
 
-        companies_list = combined_df["Name"].tolist()
-        logging.info(f"Searching for: {name}")
+        companies_list = tickers_df["title"].tolist()
+        # Get all matches with score >= 90
+        matches = process.extract(name, companies_list, limit=10)
+        strong_matches = [(company, score) for company, score in matches if score >= 90]
 
-        # Use fuzzy matching to find the best match in the Name column
-        output = process.extractOne(name, companies_list)
-        if output and len(output) == 2:
-            matched_name, score = output
-            logging.info(f"Best match: {matched_name} with score: {score}")
-            if score <= 89:
-                logging.info(f"Score {score} is below threshold of 90")
-                return None, None, None, None, None, score, None
+        if not strong_matches:
+            logging.info(f"No strong matches (score >= 90) found for {name}")
+            return None, None, [], None, None, 0, None, "Company is not in public company list"
 
-            matched_row = combined_df[combined_df["Name"] == matched_name]
-            if matched_row.empty:
-                logging.warning(f"Matched name {matched_name} not found in dataset")
-                return matched_name, None, None, None, None, score, None
+        # Get the best match (highest score)
+        best_match_name, best_score = max(strong_matches, key=lambda x: x[1])
+        matched_row = tickers_df[tickers_df["title"] == best_match_name]
+        if matched_row.empty:
+            logging.warning(f"Matched name {best_match_name} not found in public company list")
+            return best_match_name, None, [], None, None, best_score, None, "Company is not in public company list"
+        matched_row = matched_row.iloc[0]
+        ticker = matched_row["ticker"] if "ticker" in matched_row and pd.notnull(matched_row["ticker"]) else None
 
-            matched_row = matched_row.iloc[0]
-            state = matched_row["State"] if "State" in matched_row else None
-            country = matched_row["Country"] if "Country" in matched_row else None
+        # Get all possible tickers from strong matches
+        all_possible_tickers = []
+        for company, score in strong_matches:
+            row = tickers_df[tickers_df["title"] == company]
+            if not row.empty:
+                t = row.iloc[0]["ticker"]
+                if pd.notnull(t):
+                    all_possible_tickers.append(t)
+        # Remove duplicates
+        all_possible_tickers = list(dict.fromkeys(all_possible_tickers))
 
-            # If this is a ticker row and has a 'ticker' column, return it
-            ticker = (
-                matched_row["ticker"]
-                if "ticker" in matched_row and pd.notnull(matched_row["ticker"])
-                else None
-            )
-            if ticker:
-                return matched_name, ticker, [ticker], state, country, score, 100
-            else:
-                # Try to fuzzy match in tickers_df as before
-                pre_matched_name = preprocess_name(matched_name)
-                ticker_titles = tickers_df["title"].tolist()
-                pre_ticker_titles = [preprocess_name(t) for t in ticker_titles]
-                ticker_matches = process.extract(
-                    pre_matched_name, pre_ticker_titles, scorer=fuzz.token_set_ratio
-                )
-                top_matches = [match for match, s in ticker_matches if s == 100]
-                tickers = []
-                if top_matches:
-                    for match in top_matches:
-                        idxs = [
-                            i for i, t in enumerate(pre_ticker_titles) if t == match
-                        ]
-                        for idx in idxs:
-                            ticker_row = tickers_df.iloc[[idx]]
-                            ticker = (
-                                ticker_row["ticker"].values[0]
-                                if not ticker_row.empty
-                                else None
-                            )
-                            if ticker:
-                                tickers.append(ticker)
-                    seen = set()
-                    tickers = [x for x in tickers if not (x in seen or seen.add(x))]
-                    predicted_ticker = tickers[0] if tickers else None
-                    return (
-                        matched_name,
-                        predicted_ticker,
-                        tickers,
-                        state,
-                        country,
-                        score,
-                        100,
-                    )
-                else:
-                    return matched_name, None, [], state, country, score, None
-        else:
-            logging.warning(f"No match found for {name}")
-            return None, None, None, None, None, 0, None
+        ticker_score = 100 if ticker else None
+        return best_match_name, ticker, all_possible_tickers, None, None, best_score, ticker_score, None
     except Exception as e:
         logging.error(f"Error in best_match for name '{name}': {e}")
-        return None, None, None, None, None, 0, None
+        return None, None, [], None, None, 0, None, "Company is not in public company list"
