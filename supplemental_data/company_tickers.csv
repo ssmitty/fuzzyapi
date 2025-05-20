@@ -109,7 +109,6 @@ AFCG,Advanced Flower Capital Inc. - Common Stock
 AFJK,"Aimei Health Technology Co., Ltd - Ordinary Share"
 AFJKR,"Aimei Health Technology Co., Ltd - Right"
 AFJKU,"Aimei Health Technology Co., Ltd - Unit"
-AFMD,Affimed N.V. - Common Stock
 AFRI,Forafric Global PLC - Ordinary Shares
 AFRIW,Forafric Global PLC - Warrants
 AFRM,"Affirm Holdings, Inc. - Class A Common Stock"
@@ -142,7 +141,7 @@ AIFE,Aifeex Nexus Acquisition Corporation - Class A Ordinary Shares
 AIFER,Aifeex Nexus Acquisition Corporation - Right
 AIFEU,Aifeex Nexus Acquisition Corporation - Unit
 AIFF,"Firefly Neuroscience, Inc.  - Common Stock"
-AIFU,AIFU Inc. - American Depositary Shares
+AIFU,AIFU Inc. - Class A Ordinary Share
 AIHS,Senmiao Technology Limited - Common Stock
 AIMD,"Ainos, Inc. - Common Stock"
 AIMDW,"Ainos, Inc. - warrants"
@@ -274,8 +273,6 @@ AOSL,Alpha and Omega Semiconductor Limited - Common Shares
 AOTG,AOT Growth and Innovation ETF
 AOUT,"American Outdoor Brands, Inc. - Common Stock"
 APA,APA Corporation - Common Stock
-APCX,AppTech Payments Corp. - Common stock
-APCXW,AppTech Payments Corp. - Warrant
 APDN,"Applied DNA Sciences, Inc. - Common Stock"
 APED,STKd 100% MSTR & 100% COIN ETF
 APEI,"American Public Education, Inc. - Common Stock"
@@ -875,6 +872,8 @@ CGON,"CG Oncology, Inc. - Common stock"
 CGTL,Creative Global Technology Holdings Limited - Class A Ordinary Shares
 CGTX,"Cognition Therapeutics, Inc. - Common Stock"
 CHA,"Chagee Holdings Limited - American Depositary Shares, each representing 1 Class A ordinary share"
+CHAC,Crane Harbor Acquisition Corp. - Class A Ordinary Shares
+CHACR,Crane Harbor Acquisition Corp. - Rights
 CHACU,Crane Harbor Acquisition Corp. - Units
 CHAR,Charlton Aria Acquisition Corporation - Class A Ordinary Shares
 CHARR,Charlton Aria Acquisition Corporation - Rights
@@ -1217,7 +1216,6 @@ DMAAU,Drugs Made In America Acquisition Corp. - Units
 DMAC,DiaMedica Therapeutics Inc. - Common Stock
 DMAT,Global X Disruptive Materials ETF
 DMLP,"Dorchester Minerals, L.P. - Common Units Representing Limited Partnership Interests"
-DMN,Damon Inc. - Common Stock
 DMRC,Digimarc Corporation - Common Stock
 DMXF,iShares ESG Advanced MSCI EAFE ETF
 DNLI,Denali Therapeutics Inc. - Common Stock
@@ -1288,7 +1286,7 @@ DXJS,WisdomTree Japan Hedged SmallCap Equity Fund
 DXLG,"Destination XL Group, Inc. - Common Stock"
 DXPE,"DXP Enterprises, Inc. - Common Stock"
 DXR,Daxor Corporation - Closed End Fund
-DXST,Decent Holding Inc. - Ordinary Shares
+DXST,Decent Holding Inc. - Class A Ordinary Shares
 DYAI,"Dyadic International, Inc. - Common Stock"
 DYCQ,DT Cloud Acquisition Corporation - Ordinary shares
 DYCQR,DT Cloud Acquisition Corporation - Right
@@ -4812,8 +4810,6 @@ YYAI,Connexa Sports Technologies Inc. - Common Stock
 YYGH,YY Group Holding Limited - Class A Ordinary Shares
 Z,"Zillow Group, Inc. - Class C Capital Stock"
 ZAP,Global X U.S. Electrification ETF
-ZAPP,Zapp Electric Vehicles Group Limited - Ordinary shares
-ZAPPW,Zapp Electric Vehicles Group Limited - Warrant
 ZAZZT,Tick Pilot Test Stock Class A Common Stock
 ZBAI,ATIF Holdings Limited - Ordinary Shares
 ZBAO,Zhibao Technology Inc. - Class A Ordinary Shares
@@ -5876,7 +5872,7 @@ CHT,"Chunghwa Telecom Co., Ltd."
 CHWY,"Chewy, Inc. Class A Common Stock"
 CI,The Cigna Group Common Stock
 CIA,"Citizens, Inc. Class A Common Stock ($1.00 Par)"
-CIB,BanColombia S.A. Common Stock
+CIB,Grupo Cibest S.A. American Depositary Shares each representing four Preferred Shares
 CICB,CION Investment Corporation 7.50% Notes due 2029
 CIEN,Ciena Corporation Common Stock
 CIF,MFS Intermediate High Income Fund Common Stock
@@ -6268,7 +6264,6 @@ DFND,Siren DIVCON Dividend Defender ETF
 DFNL,Davis Fundamental ETF Trust Davis Select Financial ETF
 DFNM,Dimensional ETF Trust Dimensional National Municipal Bond ETF
 DFP,Flaherty & Crumrine Dynamic Preferred and Income Fund Inc. Common Stock
-DFS,Discover Financial Services Common Stock
 DFSB,Dimensional ETF Trust Dimensional Global Sustainability Fixed Income ETF
 DFSD,Dimensional ETF Trust Dimensional Short-Duration Fixed Income ETF
 DFSE,Dimensional ETF Trust Dimensional Emerging Markets Sustainability Core 1 ETF
@@ -8534,6 +8529,7 @@ MAV,"Pioneer Municipal High Income Advantage Fund, Inc."
 MAVF,EA Series Trust Matrix Advisors Value ETF
 MAX,"MediaAlpha, Inc. Class A Common Stock"
 MAXJ,iShares Trust iShares Large Cap Max Buffer Jun ETF
+MAYM,First Trust Exchange-Traded Fund VIII FT Vest U.S. Equity Max Buffer ETF - May
 MAYP,PGIM S&P 500 Buffer 12 ETF - May
 MAYT,AIM ETF Products Trust AllianzIM U.S. Large Cap Buffer10 May ETF
 MAYU,SHL Telemedicine Ltd AllianzIM U.S. Equity Buffer15 Uncapped May ETF
@@ -8779,6 +8775,7 @@ MTB$J,"M&T Bank Corporation Depositary Shares each representing a 1/400th owners
 MTBA,Simplify Exchange Traded Funds Simplify MBS ETF
 MTD,"Mettler-Toledo International, Inc. Common Stock"
 MTDR,Matador Resources Company Common Stock
+MTEST,"NYSE Texas, Inc. TEST Common Stock"
 MTG,MGIC Investment Corporation Common Stock
 MTGP,WisdomTree Mortgage Plus Bond Fund
 MTH,Meritage Homes Corporation Common Stock
@@ -8891,6 +8888,7 @@ NEE$N,"NextEra Energy, Inc. Series N Junior Subordinated Debentures due March 1,
 NEE$R,"NextEra Energy, Inc. 6.926% Corporate Units"
 NEE$S,"NextEra Energy, Inc. 7.299% Corporate Units"
 NEE$T,"NextEra Energy, Inc. 7.234% Corporate Units"
+NEE$U,"NextEra Energy, Inc. Series U Junior Subordinated Debentures due June 1, 2085"
 NEM,Newmont Corporation
 NEN,New England Realty Associates Limited Partnership Class A Depositary Receipts Evidencing Units of Limited Partnership
 NET,"Cloudflare, Inc. Class A Common Stock"
@@ -10838,6 +10836,7 @@ USMF,WisdomTree U.S. Multifactor Fund
 USML,ETRACS 2x Leveraged MSCI US Minimum Volatility Factor TR ETN
 USMV,iShares MSCI USA Min Vol Factor ETF
 USNA,"USANA Health Sciences, Inc. Common Stock"
+USNG,Amplify ETF Trust Amplify Samsung U.S. Natural Gas Infrastructure ETF
 USNZ,DBX ETF Trust Xtrackers Net Zero Pathway Paris Aligned US Equity ETF
 USO,United States Oil Fund
 USPH,"U.S. Physical Therapy, Inc. Common Stock"

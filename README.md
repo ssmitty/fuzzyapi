@@ -1,11 +1,11 @@
 # Company Matcher API
 
-This project provides a Flask API and web interface to fuzzy match company names against a combined dataset and return the best match, including state, country, and ticker symbol (if the company is publicly traded).
+This project provides a Flask API and web interface to fuzzy match company names against a combined dataset and return the best match, including the ticker symbol (if the company is publicly traded).
 
 ## Features
 - Fuzzy matching of company names using advanced preprocessing and token set ratio
 - Ticker lookup using a merged NASDAQ and NYSE/AMEX dataset
-- Returns company name, state, country, ticker, and match scores
+- Returns company name, ticker, and match scores
 - Batch processing utility for bulk matching
 - Docker support for easy deployment
 
@@ -49,23 +49,30 @@ Or, using Docker Compose:
 ```bash
 docker-compose up --build
 ```
-#The second URL is simply for internal Docker use. Use the First url for local host access
+# The second URL is simply for internal Docker use. Use the first URL for local host access
 
 ## API Usage
 - The root endpoint `/` supports both GET (form) and POST (form submission).
-- The API returns the matched company, ticker, state, country, and match scores.
-
-```
+- The API returns the matched company, ticker, and match scores.
 
 ## Running Tests
 
 To run the test suite:
-make sure the local host is running and open a new terminal
-In the new terminal input python3 test_api.py
+- Make sure the local host is running and open a new terminal
+- In the new terminal input:
 
 ```bash
 python3 test_api.py
 ```
+
+To evaluate the model on its success for determining public company names and tickers run:
+
+```bash
+python3 evaluate_model.py
+```
+
+**About How I Evaluated the Model:**
+I created a CSV of all public company names along with alot of private/non-public company names(fulltest.csv and mini version with 157 companies nyse_test.csv. Takes a very long time to run fulltest). The CSV file has three columns: `input_name` (the name that the "user" would enter, which is the first 2 words of the expected name), `expected_name` (the actual listed public company name on NASDAQ or NYSE), and `expected_ticker` (the ticker listed on NASDAQ or NYSE). The model goes through each row in the file and gives a point if it matches the correct name and ticker based on the "user input". For recall, it checks only the public company names and sees how many ticker matches it got correctly. For specificity, it checks how many false positive ticker matches occurred for non-public companies.
 
 ## Troubleshooting
 - **Port already in use:**
@@ -83,7 +90,7 @@ python3 test_api.py
 - The ticker dataset is now a CSV, not JSON.
 - Fuzzy matching is robust to suffixes, punctuation, and word order.
 - Only companies with a ticker match score >= 90 are assigned a ticker.
-- Uisng combined dataset NYSE and NASDAQ for tickers
+- Using a combined dataset of NYSE and NASDAQ for tickers and company names.
 
 ## License
 MIT 
