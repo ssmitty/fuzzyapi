@@ -49,10 +49,6 @@ def test_company_matcher():
 
     except Exception as e:
         logging.error(f"\n❌ Test failed: {str(e)}")
-    except requests.exceptions.ConnectionError:
-        logging.error(
-            "\n❌ Test failed: Could not connect to the server. Make sure it's running on port 8080."
-        )
 
 
 if __name__ == "__main__":

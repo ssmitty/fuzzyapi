@@ -5,7 +5,7 @@ import sys
 import subprocess
 import time
 import pandas as pd
-from flask import Flask, jsonify, request, make_response
+from flask import Flask,request, make_response
 import data_utils
 
 APP_VERSION = "0.1.0"
@@ -14,6 +14,7 @@ APP_VERSION = "0.1.0"
 logging.basicConfig(level=logging.INFO)
 
 # Load company data at startup with error handling
+#loads all companies from ticker dataset-nasdaq and nyse stock exchange
 try:
     TICKERS_DATA_PATH = "supplemental_data/company_tickers.csv"
     tickers_df = data_utils.load_public_companies(TICKERS_DATA_PATH)
@@ -35,17 +36,17 @@ def home():
                 error_message = "No company name provided."
             else:
                 try:
+                    #Starts time then Calls best match function and returns result
                     start = time.time()  # Start timing
                     (
                         match_name,
                         predicted_ticker,
                         all_possible_tickers,
-                        state,
-                        country,
                         score,
                         ticker_score,
                         message,
-                    ) = data_utils.best_match(name, None, tickers_df)
+                        top_matches,
+                    ) = data_utils.best_match(name, tickers_df)
                     end = time.time()  # End timing
                     api_latency = end - start
                     logging.info(
@@ -56,27 +57,28 @@ def home():
                         "matched_name": match_name,
                         "predicted_ticker": predicted_ticker,
                         "all_possible_tickers": all_possible_tickers,
-                        "state": state,
-                        "country": country,
                         "match_score": score,
                         "ticker_score": ticker_score,
                         "message": message,
+                        "top_matches": top_matches,
                     }
                 except Exception as err:
                     logging.error("Error during matching: %s", err)
                     error_message = (
                         "An error occurred during matching. Please try again."
                     )
+                    #if error occurs, sets error message error handling
     except Exception as err:
         logging.error("Unexpected error in home route: %s", err)
         error_message = "An unexpected error occurred. Please try again."
-
+    #styling for error message
     result_html = ""
     if error_message:
         result_html = (
             f"<div class='result' style='color:red;'><b>Error:</b> {error_message}</div>"
         )
     elif result:
+        #If result then checks if predicted ticker is a list or none. If list then joins the list into a string else sets to none
         # Handle predicted_ticker as a single value or None
         ticker_display = result["predicted_ticker"]
         if isinstance(ticker_display, list):
@@ -96,35 +98,29 @@ def home():
                 "<br><b>All Possible Tickers:</b> "
                 f"{', '.join(result['all_possible_tickers'])}"
             )
-        # Conditionally add State and Country if not None or NaN
-        state_val = result["state"]
-        country_val = result["country"]
-        state_html = (
-            f"<b>State:</b> {state_val}<br>"
-            if pd.notna(state_val)
-            and str(state_val).strip().lower() not in ("", "none", "nan")
-            else ""
-        )
-        country_html = (
-            f"<b>Country:</b> {country_val}<br>"
-            if pd.notna(country_val)
-            and str(country_val).strip().lower() not in ("", "none", "nan")
-            else ""
-        )
         message_html = (
             f"<div class='result' style='color:orange;'><b>Note:</b> {result['message']}</div>"
             if result.get("message") else ""
         )
+        # Add top matches HTML
+        top_matches_html = ""
+        if result.get("top_matches"):
+            top_matches_html = (
+                "<div class='result'><b>Top Matches:</b><br>" +
+                "<br>".join(
+                    f"{m['company_name']} ({m['ticker']})" for m in result["top_matches"]
+                ) + "</div>"
+            )
         result_html = (
             f"<div class='result'><b>Input:</b> {result['input_name']}<br>"
             f"<b>Matched:</b> {result['matched_name']}<br>"
             f"<b>Predicted Ticker:</b> {ticker_display}<br>"
-            f"{state_html}"
-            f"{country_html}"
             f"<b>Company Match Score:</b> {result['match_score']}<br>"
             f"<b>Ticker Match Score:</b> {result['ticker_score']}<br>"
             f"{all_possible_tickers_display}"
-            f"{message_html}</div>"
+            f"{message_html}"
+            f"{top_matches_html}"  # Add top matches to the output
+            f"</div>"
         )
 
     html = f"""
