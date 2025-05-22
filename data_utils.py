@@ -71,9 +71,11 @@ def best_match(name,tickers_df):
             logging.warning(f"Input name is not a string: {name}")
             return None, None, [], 0, None, "Company is not in public company list", []
 
+        # Preprocess the input name
+        name_processed = preprocess_name(name)
         companies_list = tickers_df["title"].tolist()
         # Get top 10 matches with score >= 90
-        matches = process.extract(name, companies_list, limit=10)
+        matches = process.extract(name_processed, companies_list, limit=10)
         strong_matches = [(company, score) for company, score in matches if score >= 90]
 
         if not strong_matches:

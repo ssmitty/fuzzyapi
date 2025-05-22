@@ -9,7 +9,7 @@ tickers_df = load_public_companies("supplemental_data/company_tickers.csv")
 
 # Load your test cases
 try:
-    test_df = pd.read_csv('supplemental_data/fulltest.csv')
+    test_df = pd.read_csv('supplemental_data/mispell.csv')
     logging.info(f"Loaded test cases shape: {test_df.shape}")
     logging.info(f"Test cases columns: {test_df.columns}")
 except Exception as e:

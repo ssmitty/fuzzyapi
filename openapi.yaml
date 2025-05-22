@@ -3,7 +3,7 @@ info:
   title: Fuzzy Company Matcher API
   version: 0.1.0
   description: API for fuzzy company name matching and ticker lookup.
-host: 4d05-69-113-10-212.ngrok-free.app
+host: c9ba-2601-84-c900-5f4a-3d32-a136-1444-a82e.ngrok-free.app
 basePath: /
 schemes:
   - https
