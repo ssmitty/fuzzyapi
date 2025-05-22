@@ -49,7 +49,10 @@ for idx, row in test_df.iterrows():
 
     expected_name_is_nan = pd.isna(expected_name) or expected_name == ""
     matched_name_is_none = matched_name is None
-    if matched_name_is_none and expected_name_is_nan:
+    expected_ticker_is_nan = pd.isna(expected_ticker) or expected_ticker == ""
+
+    # Updated logic: If matched_name is None and expected_ticker is NaN/empty, count as correct name match
+    if matched_name is None and expected_ticker_is_nan:
         name_match = True
     else:
         name_match = (
@@ -61,7 +64,6 @@ for idx, row in test_df.iterrows():
             )
         )
     #if expected ticker is nan or empty, then set ticker match to true if not check if predicted ticker is in all possible tickers
-    expected_ticker_is_nan = pd.isna(expected_ticker) or expected_ticker == ""
     predicted_ticker_is_none = predicted_ticker is None or all_possible_tickers == []
     if expected_ticker_is_nan and predicted_ticker_is_none:
         ticker_match = True

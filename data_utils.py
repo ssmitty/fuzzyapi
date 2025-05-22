@@ -1,6 +1,28 @@
 import pandas as pd
-from fuzzywuzzy import process, fuzz
+from fuzzywuzzy import process
 import logging
+from transformers import T5ForConditionalGeneration, T5Tokenizer
+import torch
+
+
+
+# Load the trained T5 model and tokenizer
+try:
+    t5_model = T5ForConditionalGeneration.from_pretrained('./company-spell-corrector')
+    t5_tokenizer = T5Tokenizer.from_pretrained('./company-spell-corrector')
+except Exception as e:
+    t5_model = None
+    t5_tokenizer = None
+    print(f"Warning: Could not load T5 spell corrector model: {e}")
+
+
+def correct_spelling(input_name):
+    if not isinstance(input_name, str) or t5_model is None or t5_tokenizer is None:
+        return input_name
+    input_ids = t5_tokenizer(input_name, return_tensors='pt').input_ids
+    with torch.no_grad():
+        outputs = t5_model.generate(input_ids)
+    return t5_tokenizer.decode(outputs[0], skip_special_tokens=True)
 
 
 def preprocess_name(name):
@@ -64,15 +86,16 @@ def load_public_companies(csv_path):
         raise
 
 
-def best_match(name,tickers_df):
+def best_match(name, tickers_df):
     try:
-        #checks if name is a string
         if not isinstance(name, str):
             logging.warning(f"Input name is not a string: {name}")
             return None, None, [], 0, None, "Company is not in public company list", []
 
+        # Spell correct the input name
+        name_corrected = correct_spelling(name)
         # Preprocess the input name
-        name_processed = preprocess_name(name)
+        name_processed = preprocess_name(name_corrected)
         companies_list = tickers_df["title"].tolist()
         # Get top 10 matches with score >= 90
         matches = process.extract(name_processed, companies_list, limit=10)

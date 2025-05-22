@@ -1,8 +1,10 @@
 black==24.3.0
 Flask==3.0.2
 Werkzeug==3.0.1
-pandas==2.2.2
-fuzzywuzzy==0.18.0
+pandas
+fuzzywuzzy
+torch
+transformers
 numpy==1.26.4
 python-Levenshtein==0.27.1
 requests==2.31.0
