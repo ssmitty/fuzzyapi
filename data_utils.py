@@ -1,28 +1,6 @@
 import pandas as pd
 from fuzzywuzzy import process
 import logging
-from transformers import T5ForConditionalGeneration, T5Tokenizer
-import torch
-
-
-
-# Load the trained T5 model and tokenizer
-try:
-    t5_model = T5ForConditionalGeneration.from_pretrained('./company-spell-corrector')
-    t5_tokenizer = T5Tokenizer.from_pretrained('./company-spell-corrector')
-except Exception as e:
-    t5_model = None
-    t5_tokenizer = None
-    print(f"Warning: Could not load T5 spell corrector model: {e}")
-
-
-def correct_spelling(input_name):
-    if not isinstance(input_name, str) or t5_model is None or t5_tokenizer is None:
-        return input_name
-    input_ids = t5_tokenizer(input_name, return_tensors='pt').input_ids
-    with torch.no_grad():
-        outputs = t5_model.generate(input_ids)
-    return t5_tokenizer.decode(outputs[0], skip_special_tokens=True)
 
 
 def preprocess_name(name):
@@ -92,12 +70,20 @@ def best_match(name, tickers_df):
             logging.warning(f"Input name is not a string: {name}")
             return None, None, [], 0, None, "Company is not in public company list", []
 
-        # Spell correct the input name
-        name_corrected = correct_spelling(name)
-        # Preprocess the input name
-        name_processed = preprocess_name(name_corrected)
+        # 1. Try exact match against raw company names
+        exact_matches = tickers_df[tickers_df['title'] == name]
+        if not exact_matches.empty:
+            matched_row = exact_matches.iloc[0]
+            ticker = matched_row["ticker"] if "ticker" in matched_row and pd.notnull(matched_row["ticker"]) else None
+            return matched_row['title'], ticker, [ticker] if ticker else [], 100, 100, None, [{
+                "company_name": matched_row['title'],
+                "ticker": ticker,
+                "score": 100
+            }]
+
+        # 2. Preprocess the input name and proceed as before
+        name_processed = preprocess_name(name)
         companies_list = tickers_df["title"].tolist()
-        # Get top 10 matches with score >= 90
         matches = process.extract(name_processed, companies_list, limit=10)
         strong_matches = [(company, score) for company, score in matches if score >= 90]
 

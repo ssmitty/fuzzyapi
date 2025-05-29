@@ -48,3 +48,10 @@ env/
 # Data files
 3_combined_data_dataset_postproc.csv
 supplemental_data/fulltest.csv
+
+# New rules
+train_t5_spell_corrector.py
+generate_misspellings.py
+sentencepiece/
+results/
+company-spell-corrector/

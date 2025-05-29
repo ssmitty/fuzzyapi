@@ -3,14 +3,14 @@
 This project provides a Flask API and web interface to fuzzy match company names against a combined dataset and return the best match, including the ticker symbol (if the company is publicly traded).
 
 ## Features
-- Fuzzy matching of company names using advanced preprocessing and token set ratio
+- Fuzzy matching of company names using advanced preprocessing and 
 - Ticker lookup using a merged NASDAQ and NYSE/AMEX dataset
 - Returns company name, ticker, and match scores
 - Batch processing utility for bulk matching
 - Docker support for easy deployment
 
 ## Data Sources
-- **Combined Dataset:** `3_combined_dataset_postproc.csv` (your main company database)
+
 - **Tickers Dataset:** `supplemental_data/company_tickers.csv` (merged NASDAQ and NYSE/AMEX tickers, updated via script)
 
 ## Setup
