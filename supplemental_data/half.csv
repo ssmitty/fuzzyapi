@@ -1,0 +1,921 @@
+input_name,expected_name,expected_ticker
+Artius II,Artius II Acquisition Inc. - Class A Ordinary Shares,AACB
+Artius II,Artius II Acquisition Inc. - Rights,AACBR
+Artius II,Artius II Acquisition Inc. - Units,AACBU
+ATA Creativity,"ATA Creativity Global - American Depositary Shares, each representing two common shares",AACG
+AdvisorShares Dorsey,AdvisorShares Dorsey Wright ADR ETF,AADR
+American Airlines,"American Airlines Group, Inc. - Common Stock",AAL
+Atlantic American,Atlantic American Corporation - Common Stock,AAME
+"Applied Optoelectronics,","Applied Optoelectronics, Inc. - Common Stock",AAOI
+"AAON, Inc.","AAON, Inc. - Common Stock",AAON
+GraniteShares 2x,GraniteShares 2x Long AAPL Daily ETF,AAPB
+Direxion Daily,Direxion Daily AAPL Bear 1X Shares,AAPD
+Ascentage Pharma,Ascentage Pharma Group International - American Depository Shares,AAPG
+Apple Inc.,Apple Inc. - Common Stock,AAPL
+Direxion Daily,Direxion Daily AAPL Bull 2X Shares,AAPU
+"Aardvark Therapeutics,","Aardvark Therapeutics, Inc. - Common Stock",AARD
+Alpha Architect,Alpha Architect Global Factor Equity ETF,AAVM
+iShares MSCI,iShares MSCI All Country Asia ex Japan ETF,AAXJ
+American Battery,American Battery Technology Company - Common Stock,ABAT
+AbCellera Biologics,AbCellera Biologics Inc. - Common Shares,ABCL
+Alpha Blue,Alpha Blue Capital US Small-Mid Cap Dynamic ETF,ABCS
+Abeona Therapeutics,Abeona Therapeutics Inc. - Common Stock,ABEO
+Argent Large,Argent Large Cap ETF,ABIG
+Abacus Global,"Abacus Global Management, Inc. - Class A Common Stock",ABL
+Abacus Global,"Abacus Global Management, Inc. - 9.875% Fixed Rate Senior Notes due 2028",ABLLL
+Abacus Global,"Abacus Global Management, Inc. - Warrant",ABLLW
+Able View,Able View Global Inc. - Class B Ordinary Shares,ABLV
+Able View,Able View Global Inc. - Warrant,ABLVW
+"Airbnb, Inc.","Airbnb, Inc. - Class A Common Stock",ABNB
+"Acumen Pharmaceuticals,","Acumen Pharmaceuticals, Inc. - Common Stock",ABOS
+"Abpro Holdings,","Abpro Holdings, Inc - Common Stock",ABP
+"Abpro Holdings,","Abpro Holdings, Inc - Warrant",ABPWW
+Absci Corporation,Absci Corporation - Common Stock,ABSI
+Abits Group,Abits Group Inc - Ordinary Shares,ABTS
+Arbutus Biopharma,Arbutus Biopharma Corporation - Common Stock,ABUS
+"ABVC BioPharma,","ABVC BioPharma, Inc. - Common Stock",ABVC
+Above Food,Above Food Ingredients Inc. - Common Stock,ABVE
+Above Food,Above Food Ingredients Inc. - Warrant,ABVEW
+Abivax SA,Abivax SA - American Depositary Shares,ABVX
+ACADIA Pharmaceuticals,ACADIA Pharmaceuticals Inc. - Common Stock,ACAD
+Aurora Cannabis,Aurora Cannabis Inc. - Common Shares,ACB
+ProFrac Holding,ProFrac Holding Corp. - Class A Common Stock,ACDC
+"Adicet Bio,","Adicet Bio, Inc. - Common Stock",ACET
+Arch Capital,Arch Capital Group Ltd. - Common Stock,ACGL
+Arch Capital,"Arch Capital Group Ltd. - Depositary Shares, each Representing a 1/1,000th Interest in a 4.550% Non-Cumulative Preferred Share, Series G",ACGLN
+Arch Capital,"Arch Capital Group Ltd. - Depositary Shares Each Representing 1/1,000th Interest in a Share of5.45% Non-Cumulative Preferred Shares, Series F",ACGLO
+Acadia Healthcare,"Acadia Healthcare Company, Inc. - Common Stock",ACHC
+Achieve Life,"Achieve Life Sciences, Inc.  - Common Shares",ACHV
+American Coastal,American Coastal Insurance Corporation - Common Stock,ACIC
+AC Immune,AC Immune SA - Common Stock,ACIU
+"ACI Worldwide,","ACI Worldwide, Inc. - Common Stock",ACIW
+"Axcelis Technologies,","Axcelis Technologies, Inc. - Common Stock",ACLS
+"Arcellx, Inc.","Arcellx, Inc. - Common Stock",ACLX
+"ACM Research,","ACM Research, Inc. - Class A Common Stock",ACMR
+ACNB Corporation,ACNB Corporation - Common Stock,ACNB
+Ascent Industries,Ascent Industries Co. - Common Stock,ACNT
+Alpha Cognition,Alpha Cognition Inc. - Common Stock,ACOG
+"Aclarion, Inc.","Aclarion, Inc. - Common Stock",ACON
+"Aclarion, Inc.","Aclarion, Inc. - Warrant",ACONW
+"Aclaris Therapeutics,","Aclaris Therapeutics, Inc. - Common Stock",ACRS
+"Acrivon Therapeutics,","Acrivon Therapeutics, Inc. - Common Stock",ACRV
+"Enact Holdings,","Enact Holdings, Inc. - Common Stock",ACT
+Acacia Research,Acacia Research Corporation - Common Stock,ACTG
+"Actuate Therapeutics,","Actuate Therapeutics, Inc. - Common stock",ACTU
+iShares MSCI,iShares MSCI ACWI ETF,ACWI
+iShares MSCI,iShares MSCI ACWI ex U.S. ETF,ACWX
+"Acurx Pharmaceuticals,","Acurx Pharmaceuticals, Inc. - Common Stock",ACXP
+Adagene Inc.,"Adagene Inc. - ADS, each representing 1.25 ordinary shares",ADAG
+Adaptimmune Therapeutics,Adaptimmune Therapeutics plc - American Depositary Shares,ADAP
+Adobe Inc.,Adobe Inc. - Common Stock,ADBE
+Leverage Shares,Leverage Shares 2X Long ADBE Daily ETF,ADBG
+Color Star,"Color Star Technology Co., Ltd. - Class A Ordinary Shares",ADD
+Adeia Inc.,Adeia Inc.  - Common Stock,ADEA
+Adagio Medical,"Adagio Medical Holdings, Inc - Common Stock",ADGM
+"Analog Devices,","Analog Devices, Inc. - Common Stock",ADI
+"Adial Pharmaceuticals,","Adial Pharmaceuticals, Inc - Common Stock",ADIL
+ADMA Biologics,ADMA Biologics Inc - Common Stock,ADMA
+Advent Technologies,"Advent Technologies Holdings, Inc. - Class A Common Stock",ADN
+Advent Technologies,"Advent Technologies Holdings, Inc. - Warrant",ADNWW
+Automatic Data,"Automatic Data Processing, Inc. - Common Stock",ADP
+Adaptive Biotechnologies,Adaptive Biotechnologies Corporation - Common Stock,ADPT
+ADS-TEC ENERGY,ADS-TEC ENERGY PLC - Ordinary Shares,ADSE
+ADS-TEC ENERGY,ADS-TEC ENERGY PLC - Warrant,ADSEW
+"Autodesk, Inc.","Autodesk, Inc. - Common Stock",ADSK
+"ADTRAN Holdings,","ADTRAN Holdings, Inc. - Common Stock",ADTN
+"Aditxt, Inc.","Aditxt, Inc. - Common Stock",ADTX
+Aduro Clean,Aduro Clean Technologies Inc. - Common Stock,ADUR
+Addus HomeCare,Addus HomeCare Corporation - Common Stock,ADUS
+Advantage Solutions,Advantage Solutions Inc.  - Class A Common Stock,ADV
+Advanced Biomed,Advanced Biomed Inc. - Common Stock,ADVB
+"Adverum Biotechnologies,","Adverum Biotechnologies, Inc. - Common Stock",ADVM
+Advantage Solutions,Advantage Solutions Inc.  - Warrant,ADVWW
+Addex Therapeutics,Addex Therapeutics Ltd - American Depositary Shares,ADXN
+Antelope Enterprise,Antelope Enterprise Holdings Limited - Class A Ordinary Shares,AEHL
+Aehr Test,Aehr Test Systems - Common Stock,AEHR
+Alset Inc.,Alset Inc. - Common Stock,AEI
+Advanced Energy,"Advanced Energy Industries, Inc. - Common Stock",AEIS
+"Aethlon Medical,","Aethlon Medical, Inc. - Common Stock",AEMD
+Alliance Entertainment,Alliance Entertainment Holding Corporation - common stock,AENT
+Alliance Entertainment,Alliance Entertainment Holding Corporation - Warrants,AENTW
+American Electric,"American Electric Power Company, Inc. - Common Stock",AEP
+"Aeries Technology,","Aeries Technology, Inc. - Class A Ordinary Share",AERT
+"Aeries Technology,","Aeries Technology, Inc. - Warrant",AERTW
+"Aeva Technologies,","Aeva Technologies, Inc. - Common Stock",AEVA
+"Aeva Technologies,","Aeva Technologies, Inc. - Redeemable Warrants",AEVAW
+"AudioEye, Inc.","AudioEye, Inc. - Common Stock",AEYE
+"Affinity Bancshares,","Affinity Bancshares, Inc. - Common Stock",AFBI
+Advanced Flower,Advanced Flower Capital Inc. - Common Stock,AFCG
+Aimei Health,"Aimei Health Technology Co., Ltd - Ordinary Share",AFJK
+Aimei Health,"Aimei Health Technology Co., Ltd - Right",AFJKR
+Aimei Health,"Aimei Health Technology Co., Ltd - Unit",AFJKU
+Affimed N.V.,Affimed N.V. - Common Stock,AFMD
+Forafric Global,Forafric Global PLC - Ordinary Shares,AFRI
+Forafric Global,Forafric Global PLC - Warrants,AFRIW
+"Affirm Holdings,","Affirm Holdings, Inc. - Class A Common Stock",AFRM
+abrdn Focused,abrdn Focused U.S. Small Cap Active ETF,AFSC
+Afya Limited,Afya Limited - Class A Common Shares,AFYA
+Allied Gaming,Allied Gaming & Entertainment Inc. - Common Stock,AGAE
+abrdn Emerging,abrdn Emerging Markets Dividend Active ETF,AGEM
+Agenus Inc.,Agenus Inc. - Common Stock,AGEN
+Agrify Corporation,Agrify Corporation - Common Stock,AGFY
+Astoria Dynamic,Astoria Dynamic Core US Fixed Income ETF,AGGA
+Aureus Greenway,Aureus Greenway Holdings Inc. - Common Stock,AGH
+"Agios Pharmaceuticals,","Agios Pharmaceuticals, Inc. - Common Stock",AGIO
+KraneShares Artificial,KraneShares Artificial Intelligence & Technology ETF,AGIX
+AGM Group,AGM Group Holdings Inc. - Class A Ordinary Shares,AGMH
+Themes Silver,Themes Silver Miners ETF,AGMI
+AGNC Investment,AGNC Investment Corp. - Common Stock,AGNC
+AGNC Investment,"AGNC Investment Corp. - Depositary Shares Each Representing a 1/1,000th Interest in a Share of 7.75% Series G Fixed-Rate Reset Cumulative Redeemable Preferred Stock",AGNCL
+AGNC Investment,AGNC Investment Corp. - Depositary Shares rep 6.875% Series D Fixed-to-Floating Cumulative Redeemable Preferred Stock,AGNCM
+AGNC Investment,"AGNC Investment Corp. - Depositary Shares Each Representing a 1/1,000th Interest in a Share of 7.00% Series C Fixed-To-Floating Rate Cumulative Redeemable Preferred Stock",AGNCN
+AGNC Investment,"AGNC Investment Corp. - Depositary Shares, each representing a 1/1,000th interest in a share of Series E Fixed-to-Floating Cumulative Redeemable Preferred Stock",AGNCO
+AGNC Investment,"AGNC Investment Corp. - Depositary Shares Each Representing a 1/1,000th Interest in a Share of 6.125% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",AGNCP
+Global X,Global X Aging Population ETF,AGNG
+AgriFORCE Growing,AgriFORCE  Growing Systems Ltd. - Common Shares,AGRI
+"Agilysys, Inc.","Agilysys, Inc. - Common Stock",AGYS
+WisdomTree Interest,WisdomTree Interest Rate Hedged U.S. Aggregate Bond Fund,AGZD
+AdaptHealth Corp.,AdaptHealth Corp.  - Common Stock,AHCO
+Akso Health,Akso Health Group - American Depositary Shares,AHG
+iShares Asia,iShares Asia 50 ETF,AIA
+Aifeex Nexus,Aifeex Nexus Acquisition Corporation - Class A Ordinary Shares,AIFE
+Aifeex Nexus,Aifeex Nexus Acquisition Corporation - Right,AIFER
+Aifeex Nexus,Aifeex Nexus Acquisition Corporation - Unit,AIFEU
+"Firefly Neuroscience,","Firefly Neuroscience, Inc.  - Common Stock",AIFF
+AIFU Inc.,AIFU Inc. - American Depositary Shares,AIFU
+Senmiao Technology,Senmiao Technology Limited - Common Stock,AIHS
+"Ainos, Inc.","Ainos, Inc. - Common Stock",AIMD
+"Ainos, Inc.","Ainos, Inc. - warrants",AIMDW
+"PowerFleet, Inc.","PowerFleet, Inc. - Common Stock",AIOT
+"Arteris, Inc.","Arteris, Inc.  - Common Stock",AIP
+REX AI,REX AI Equity Premium Income ETF,AIPI
+Global X,Global X Artificial Intelligence & Technology ETF,AIQ
+reAlpha Tech,reAlpha Tech Corp. - Common Stock,AIRE
+"Airgain, Inc.","Airgain, Inc. - Common Stock",AIRG
+AirJoule Technologies,AirJoule Technologies Corporation - Class A Common Stock,AIRJ
+AirJoule Technologies,AirJoule Technologies Corporation - Warrant,AIRJW
+Themes Airlines,Themes Airlines ETF,AIRL
+First Trust,First Trust RBA American Industrial Renaissance ETF,AIRR
+"AirSculpt Technologies,","AirSculpt Technologies, Inc. - Common Stock",AIRS
+"Air T,","Air T, Inc. - Common Stock",AIRT
+"Air T,","Air T, Inc. - Trust Preferred Securities",AIRTP
+Airship AI,"Airship AI Holdings, Inc - Class A Common Stock",AISP
+Airship AI,"Airship AI Holdings, Inc - Warrants",AISPW
+XIAO-I Corporation,XIAO-I Corporation - American Depositary Shares,AIXI
+"Akamai Technologies,","Akamai Technologies, Inc. - Common Stock",AKAM
+Akanda Corp.,Akanda Corp. - Common Shares,AKAN
+"Akebia Therapeutics,","Akebia Therapeutics, Inc. - Common Stock",AKBA
+"Akero Therapeutics,","Akero Therapeutics, Inc. - Common Stock",AKRO
+Akari Therapeutics,Akari Therapeutics Plc - American Depositary Shares,AKTX
+"Akoya BioSciences,","Akoya BioSciences, Inc. - Common Stock",AKYA
+"Astera Labs,","Astera Labs, Inc. - Common Stock",ALAB
+Alarum Technologies,Alarum Technologies Ltd. - American Depositary Shares,ALAR
+Avalon GloboCare,Avalon GloboCare Corp. - Common Stock,ALBT
+"Alico, Inc.","Alico, Inc. - Common Stock",ALCO
+Alchemy Investments,Alchemy Investments Acquisition Corp 1 - Class A Ordinary Shares,ALCY
+Alchemy Investments,Alchemy Investments Acquisition Corp 1 - Units,ALCYU
+Alchemy Investments,Alchemy Investments Acquisition Corp 1 - Warrants,ALCYW
+Aldel Financial,Aldel Financial II Inc. - Class A Ordinary Shares,ALDF
+Aldel Financial,Aldel Financial II Inc. - Units,ALDFU
+Aldel Financial,Aldel Financial II Inc. - Warrants,ALDFW
+"Aldeyra Therapeutics,","Aldeyra Therapeutics, Inc. - Common Stock",ALDX
+"Alector, Inc.","Alector, Inc. - Common Stock",ALEC
+Centurion Acquisition,Centurion Acquisition Corp. - Class A Ordinary Shares,ALF
+Centurion Acquisition,Centurion Acquisition Corp. - Unit,ALFUU
+Centurion Acquisition,Centurion Acquisition Corp. - Warrant,ALFUW
+"Allegro MicroSystems,","Allegro MicroSystems, Inc. - Common Stock",ALGM
+"Align Technology,","Align Technology, Inc. - Common Stock",ALGN
+"Aligos Therapeutics,","Aligos Therapeutics, Inc. - Common stock",ALGS
+Allegiant Travel,Allegiant Travel Company - Common Stock,ALGT
+"Alignment Healthcare,","Alignment Healthcare, Inc. - Common Stock",ALHC
+Argent Focused,Argent Focused Small Cap ETF,ALIL
+Alkermes plc,Alkermes plc - Ordinary Shares,ALKS
+"Alkami Technology,","Alkami Technology, Inc. - Common Stock",ALKT
+"Allogene Therapeutics,","Allogene Therapeutics, Inc. - Common Stock",ALLO
+"Allarity Therapeutics,","Allarity Therapeutics, Inc. - Common stock",ALLR
+Allot Ltd.,Allot Ltd. - Ordinary Shares,ALLT
+SPDR Bridgewater,SPDR Bridgewater All Weather ETF,ALLW
+Alumis Inc.,Alumis Inc. - Common Stock,ALMS
+"Aeluma, Inc.","Aeluma, Inc. - Common Stock",ALMU
+Allient Inc.,Allient Inc. - Common Stock,ALNT
+"Alnylam Pharmaceuticals,","Alnylam Pharmaceuticals, Inc. - Common Stock",ALNY
+"AstroNova, Inc.","AstroNova, Inc. - Common Stock",ALOT
+"Alarm.com Holdings,","Alarm.com Holdings, Inc. - Common Stock",ALRM
+Alerus Financial,Alerus Financial Corporation - Common Stock,ALRS
+"Altimmune, Inc.","Altimmune, Inc. - Common Stock",ALT
+"AlTi Global,","AlTi Global, Inc. - Class A Common Stock",ALTI
+"Alto Ingredients,","Alto Ingredients, Inc. - Common Stock",ALTO
+ALT5 Sigma,ALT5 Sigma Corporation - Common Stock,ALTS
+Global X,Global X Alternative Income ETF,ALTY
+Alvotech -,Alvotech - Ordinary Shares,ALVO
+Alvotech -,Alvotech - Warrant,ALVOW
+ALX Oncology,ALX Oncology Holdings Inc. - Common Stock,ALXO
+"Alzamend Neuro,","Alzamend Neuro, Inc. - Common Stock",ALZN
+Amalgamated Financial,Amalgamated Financial Corp. - Common Stock,AMAL
+"Applied Materials,","Applied Materials, Inc. - Common Stock",AMAT
+"Ambarella, Inc.","Ambarella, Inc. - Ordinary Shares",AMBA
+Amber International,Amber International Holding Limited - American Depositary Shares,AMBR
+AMC Networks,AMC Networks Inc. - Class A Common Stock,AMCX
+Advanced Micro,"Advanced Micro Devices, Inc. - Common Stock",AMD
+Direxion Daily,Direxion Daily AMD Bear 1X Shares,AMDD
+Leverage Shares,Leverage Shares 2X Long AMD Daily ETF,AMDG
+GraniteShares 2x,GraniteShares 2x Long AMD Daily ETF,AMDL
+GraniteShares 1x,GraniteShares 1x Short AMD Daily ETF,AMDS
+Amedisys Inc,Amedisys Inc - Common Stock,AMED
+Amgen Inc.,Amgen Inc. - Common Stock,AMGN
+Argent Mid,Argent Mid Cap ETF,AMID
+"Autonomix Medical,","Autonomix Medical, Inc. - Common Stock",AMIX
+"Amkor Technology,","Amkor Technology, Inc. - Common Stock",AMKR
+"Amylyx Pharmaceuticals,","Amylyx Pharmaceuticals, Inc. - Common Stock",AMLX
+Alpha Modus,"Alpha Modus Holdings, Inc. - Class A Common Stock",AMOD
+Alpha Modus,"Alpha Modus Holdings, Inc. - Warrant",AMODW
+"Amplitech Group,","Amplitech Group, Inc. - Common Stock",AMPG
+"Amplitech Group,","Amplitech Group, Inc. - Warrants",AMPGW
+"Amphastar Pharmaceuticals,","Amphastar Pharmaceuticals, Inc. - Common Stock",AMPH
+"Amplitude, Inc.","Amplitude, Inc. - Class A Common Stock",AMPL
+A-Mark Precious,"A-Mark Precious Metals, Inc. - Common Stock",AMRK
+Amarin Corporation,Amarin Corporation plc - American Depositary Shares,AMRN
+"Amneal Pharmaceuticals,","Amneal Pharmaceuticals, Inc. - Class A Common Stock",AMRX
+American Superconductor,American Superconductor Corporation - Common Stock,AMSC
+"AMERISAFE, Inc.","AMERISAFE, Inc. - Common Stock",AMSF
+Amesite Inc.,Amesite Inc. - Common Stock,AMST
+"Aemetis, Inc","Aemetis, Inc - Common Stock",AMTX
+Direxion Daily,Direxion Daily AMD Bull 2X Shares,AMUU
+American Woodmark,American Woodmark Corporation - Common Stock,AMWD
+Direxion Daily,Direxion Daily AMZN Bear 1X Shares,AMZD
+"Amazon.com, Inc.","Amazon.com, Inc. - Common Stock",AMZN
+Direxion Daily,Direxion Daily AMZN Bull 2X Shares,AMZU
+GraniteShares 2x,GraniteShares 2x Long AMZN Daily ETF,AMZZ
+"AnaptysBio, Inc.","AnaptysBio, Inc. - Common Stock",ANAB
+"The Andersons,","The Andersons, Inc. - Common Stock",ANDE
+"Anebulo Pharmaceuticals,","Anebulo Pharmaceuticals, Inc. - Common Stock",ANEB
+Anghami Inc.,Anghami Inc. - Ordinary Shares,ANGH
+Anghami Inc.,Anghami Inc. - Warrants,ANGHW
+Angi Inc.,Angi Inc. - Class A Common Stock,ANGI
+VanEck Fallen,VanEck Fallen Angel High Yield Bond ETF,ANGL
+"AngioDynamics, Inc.","AngioDynamics, Inc. - Common Stock",ANGO
+Anika Therapeutics,Anika Therapeutics Inc. - Common Stock,ANIK
+"ANI Pharmaceuticals,","ANI Pharmaceuticals, Inc. - Common Stock",ANIP
+"Anixa Biosciences,","Anixa Biosciences, Inc. - Common Stock",ANIX
+Adlai Nortye,Adlai Nortye Ltd. - American Depositary Shares,ANL
+"AleAnna, Inc.","AleAnna, Inc. - Class A Common Stock",ANNA
+"AleAnna, Inc.","AleAnna, Inc. - Warrant",ANNAW
+"Annexon, Inc.","Annexon, Inc. - common stock",ANNX
+Agriculture &,Agriculture & Natural Solutions Acquisition Corporation - Class A Ordinary Shares,ANSC
+Agriculture &,Agriculture & Natural Solutions Acquisition Corporation - Unit,ANSCU
+Agriculture &,Agriculture & Natural Solutions Acquisition Corporation - Warrant,ANSCW
+"ANSYS, Inc.","ANSYS, Inc. - Common Stock",ANSS
+Antalpha Platform,Antalpha Platform Holding Company - Ordinary Shares,ANTA
+AirNet Technology,"AirNet Technology Inc. - American Depositary Shares, each representing one ordinary shares",ANTE
+"AN2 Therapeutics,","AN2 Therapeutics, Inc. - Common Stock",ANTX
+Sphere 3D,Sphere 3D Corp. - Common Shares,ANY
+Angel Oak,Angel Oak High Yield Opportunities ETF,AOHY
+Alpha and,Alpha and Omega Semiconductor Limited - Common Shares,AOSL
+AOT Growth,AOT Growth and Innovation ETF,AOTG
+American Outdoor,"American Outdoor Brands, Inc. - Common Stock",AOUT
+APA Corporation,APA Corporation - Common Stock,APA
+AppTech Payments,AppTech Payments Corp. - Common stock,APCX
+AppTech Payments,AppTech Payments Corp. - Warrant,APCXW
+Applied DNA,"Applied DNA Sciences, Inc. - Common Stock",APDN
+STKd 100%,STKd 100% MSTR & 100% COIN ETF,APED
+American Public,"American Public Education, Inc. - Common Stock",APEI
+"Apogee Therapeutics,","Apogee Therapeutics, Inc. - Common Stock",APGE
+"Agora, Inc.","Agora, Inc. - ADS",API
+Applied Digital,Applied Digital Corporation - Common Stock,APLD
+Apollomics Inc.,Apollomics Inc. - Class A Ordinary Shares,APLM
+Apollomics Inc.,Apollomics Inc. - Warrant,APLMW
+"Apellis Pharmaceuticals,","Apellis Pharmaceuticals, Inc. - Common Stock",APLS
+"Applied Therapeutics,","Applied Therapeutics, Inc. - Common Stock",APLT
+Aptorum Group,Aptorum Group Limited - Class A Ordinary Shares,APM
+"Apogee Enterprises,","Apogee Enterprises, Inc. - Common Stock",APOG
+Applovin Corporation,Applovin Corporation - Class A Common Stock,APP
+"AppFolio, Inc.","AppFolio, Inc. - Class A Common Stock",APPF
+Appian Corporation,Appian Corporation - Class A Common Stock,APPN
+"Digital Turbine,","Digital Turbine, Inc. - Common Stock",APPS
+Tradr 2X,Tradr 2X Long APP Daily ETF,APPX
+"Aprea Therapeutics,","Aprea Therapeutics, Inc. - Common Stock",APRE
+Aptevo Therapeutics,Aptevo Therapeutics Inc. - Common Stock,APVO
+Asia Pacific,"Asia Pacific Wire & Cable Corporation Limited  - Common shares, Par value .01 per share",APWC
+Apyx Medical,Apyx Medical Corporation - Common Stock,APYX
+"AquaBounty Technologies,","AquaBounty Technologies, Inc. - Common Stock",AQB
+"Aqua Metals,","Aqua Metals, Inc. - Common Stock",AQMS
+"Aquestive Therapeutics,","Aquestive Therapeutics, Inc. - Common Stock",AQST
+Global X,Global X Clean Water ETF,AQWA
+Arrive AI,Arrive AI Inc. - Common Stock,ARAI
+Accuray Incorporated,Accuray Incorporated - Common Stock,ARAY
+ARB IOT,ARB IOT Group Limited - Ordinary Shares,ARBB
+Arbe Robotics,Arbe Robotics Ltd. - Ordinary Shares,ARBE
+Arbe Robotics,Arbe Robotics Ltd. - Warrant,ARBEW
+Argo Blockchain,Argo Blockchain plc - American Depositary Shares,ARBK
+Argo Blockchain,Argo Blockchain plc - 8.75% Senior Notes due 2026,ARBKL
+ArcBest Corporation,ArcBest Corporation - Common Stock,ARCB
+Ares Capital,Ares Capital Corporation - Closed End Fund,ARCC
+Arcturus Therapeutics,Arcturus Therapeutics Holdings Inc. - Common Stock,ARCT
+"Ardelyx, Inc.","Ardelyx, Inc. - Common Stock",ARDX
+American Rebel,"American Rebel Holdings, Inc. - Common Stock",AREB
+American Rebel,"American Rebel Holdings, Inc. - warrants",AREBW
+American Resources,American Resources Corporation - Class A Common Stock,AREC
+argenx SE,argenx SE - American Depositary Shares,ARGX
+"Arhaus, Inc.","Arhaus, Inc. - Class A Common Stock",ARHS
+ARKO Corp.,ARKO Corp. - Common Stock,ARKO
+ARKO Corp.,ARKO Corp. - Warrant,ARKOW
+Ark Restaurants,Ark Restaurants Corp. - Common Stock,ARKR
+Alliance Resource,"Alliance Resource Partners, L.P. - Common Units Representing Limited Partnership Interests",ARLP
+Arm Holdings,Arm Holdings plc - American Depositary Shares,ARM
+Leverage Shares,Leverage Shares 2X Long ARM Daily ETF,ARMG
+Arrow Financial,Arrow Financial Corporation - Common Stock,AROW
+"Arq, Inc.","Arq, Inc. - Common Stock",ARQ
+Arqit Quantum,Arqit Quantum Inc. - Ordinary Shares,ARQQ
+Arqit Quantum,Arqit Quantum Inc. - Warrants,ARQQW
+"Arcutis Biotherapeutics,","Arcutis Biotherapeutics, Inc. - Common stock",ARQT
+"Array Technologies,","Array Technologies, Inc. - Common Stock",ARRY
+"Artelo Biosciences,","Artelo Biosciences, Inc. - Common Stock",ARTL
+Artesian Resources,Artesian Resources Corporation - Class A Non-Voting Common Stock,ARTNA
+"Artiva Biotherapeutics,","Artiva Biotherapeutics, Inc. - Common Stock",ARTV
+Art's-Way Manufacturing,"Art's-Way Manufacturing Co., Inc. - Common Stock",ARTW
+"Arvinas, Inc.","Arvinas, Inc. - Common Stock",ARVN
+First Trust,First Trust Indxx Metaverse ETF,ARVR
+"Arrowhead Pharmaceuticals,","Arrowhead Pharmaceuticals, Inc. - Common Stock",ARWR
+Aspire Biopharma,"Aspire Biopharma Holdings, Inc.  - Common Stock",ASBP
+Aspire Biopharma,"Aspire Biopharma Holdings, Inc.  - Warrant",ASBPW
+FlexShares Real,FlexShares Real Assets Allocation Index Fund,ASET
+AerSale Corporation,AerSale Corporation - Common Stock,ASLE
+"Assembly Biosciences,","Assembly Biosciences, Inc. - Common Stock",ASMB
+Leverage Shares,Leverage Shares 2X Long ASML Daily ETF,ASMG
+ASML Holding,ASML Holding N.V. - New York Registry Shares,ASML
+Ascendis Pharma,Ascendis Pharma A/S - American Depositary Shares,ASND
+"Actelis Networks,","Actelis Networks, Inc. - Common Stock",ASNS
+Academy Sports,"Academy Sports and Outdoors, Inc. - Common Stock",ASO
+A SPAC,A SPAC III Acquisition Corp. - Class A Ordinary Shares,ASPC
+A SPAC,A SPAC III Acquisition Corp. - Right,ASPCR
+A SPAC,A SPAC III Acquisition Corp. - Unit,ASPCU
+ASP Isotopes,ASP Isotopes Inc. - Common Stock,ASPI
+Altisource Portfolio,Altisource Portfolio Solutions S.A. - Common Stock,ASPS
+Altisource Portfolio,Altisource Portfolio Solutions S.A. - Net Settle Stakeholder Warrants,ASPSW
+Altisource Portfolio,Altisource Portfolio Solutions S.A. - Cash Exercise Stakeholder Warrants,ASPSZ
+"Assertio Holdings,","Assertio Holdings, Inc. - Common Stock",ASRT
+AmeriServ Financial,AmeriServ Financial Inc. - Common Stock,ASRV
+Asset Entities,Asset Entities Inc. - Class B Common Stock,ASST
+Astrotech Corporation,Astrotech Corporation - Common Stock,ASTC
+"Astec Industries,","Astec Industries, Inc. - Common Stock",ASTE
+Astrana Health,Astrana Health Inc. - Common Stock,ASTH
+Ascent Solar,"Ascent Solar Technologies, Inc - Common Stock",ASTI
+Algoma Steel,Algoma Steel Group Inc. - Common Shares,ASTL
+Algoma Steel,Algoma Steel Group Inc. - Warrant,ASTLW
+"AST SpaceMobile,","AST SpaceMobile, Inc. - Class A Common Stock",ASTS
+Asure Software,Asure Software Inc - Common Stock,ASUR
+"Amtech Systems,","Amtech Systems, Inc. - Common Stock",ASYS
+ATAI Life,ATAI Life Sciences N.V. - Common Shares,ATAI
+Atour Lifestyle,Atour Lifestyle Holdings Limited - American Depositary Shares,ATAT
+Atlas Corp.,Atlas Corp. - 7.125% Notes due 2027,ATCOL
+"Alphatec Holdings,","Alphatec Holdings, Inc. - Common Stock",ATEC
+"Aterian, Inc.","Aterian, Inc. - Common Stock",ATER
+Anterix Inc.,Anterix Inc. - Common Stock,ATEX
+Alpha Technology,Alpha Technology Group Limited - Class A Ordinary Shares,ATGL
+"Athira Pharma,","Athira Pharma, Inc. - Common Stock",ATHA
+Alterity Therapeutics,Alterity Therapeutics Limited - American Depositary Shares,ATHE
+"Aether Holdings,","Aether Holdings, Inc. - Common Stock",ATHR
+Archimedes Tech,Archimedes Tech SPAC Partners II Co. - Ordinary Shares,ATII
+Archimedes Tech,Archimedes Tech SPAC Partners II Co. - Unit,ATIIU
+Archimedes Tech,Archimedes Tech SPAC Partners II Co. - Warrant,ATIIW
+Atlanticus Holdings,Atlanticus Holdings Corporation - Common Stock,ATLC
+Atlanticus Holdings,Atlanticus Holdings Corporation - 6.125% Senior Notes due 2026,ATLCL
+Atlanticus Holdings,"Atlanticus Holdings Corporation - 7.625% Series B Cumulative Perpetual Preferred Stock, no par value per share",ATLCP
+Atlanticus Holdings,Atlanticus Holdings Corporation - 9.25% Senior Notes due 2029,ATLCZ
+Atlantic International,Atlantic International Corp. - Common Stock,ATLN
+Ames National,Ames National Corporation - Common Stock,ATLO
+Atlas Lithium,Atlas Lithium Corporation - Common Stock,ATLX
+AlphaTime Acquisition,AlphaTime Acquisition Corp - Ordinary Shares,ATMC
+AlphaTime Acquisition,AlphaTime Acquisition Corp - Right,ATMCR
+AlphaTime Acquisition,AlphaTime Acquisition Corp - Unit,ATMCU
+AlphaTime Acquisition,AlphaTime Acquisition Corp - Warrant,ATMCW
+AlphaVest Acquisition,AlphaVest Acquisition Corp - Ordinary Shares,ATMV
+AlphaVest Acquisition,AlphaVest Acquisition Corp - Right,ATMVR
+AlphaVest Acquisition,AlphaVest Acquisition Corp - Unit,ATMVU
+180 Life,180 Life Sciences Corp. - Common Stock,ATNF
+180 Life,180 Life Sciences Corp. - Warrant,ATNFW
+"ATN International,","ATN International, Inc. - Common Stock",ATNI
+Atomera Incorporated,Atomera Incorporated - Common Stock,ATOM
+"Atossa Therapeutics,","Atossa Therapeutics, Inc. - Common Stock",ATOS
+Agape ATP,Agape ATP Corporation - Common Stock,ATPC
+"Atara Biotherapeutics,","Atara Biotherapeutics, Inc. - Common Stock",ATRA
+"AtriCure, Inc.","AtriCure, Inc. - Common Stock",ATRC
+Astronics Corporation,Astronics Corporation - Common Stock,ATRO
+Addentax Group,Addentax Group Corp. - Common Stock,ATXG
+"Astria Therapeutics,","Astria Therapeutics, Inc. - Common Stock",ATXS
+"aTyr Pharma,","aTyr Pharma, Inc. - Common Stock",ATYR
+Auburn National,"Auburn National Bancorporation, Inc. - Common Stock",AUBN
+AudioCodes Ltd.,AudioCodes Ltd. - Ordinary Shares,AUDC
+authID Inc.,authID Inc. - Common Stock,AUID
+Themes Gold,Themes Gold Miners ETF,AUMI
+Aurinia Pharmaceuticals,Aurinia Pharmaceuticals Inc - Common Shares,AUPH
+"Aurora Innovation,","Aurora Innovation, Inc.  - Class A Common Stock",AUR
+"Aura Biosciences,","Aura Biosciences, Inc. - Common Stock",AURA
+"Aurora Innovation,","Aurora Innovation, Inc.  - Warrant",AUROW
+Autolus Therapeutics,Autolus Therapeutics plc - American Depositary Shares,AUTL
+Auddia Inc.,Auddia Inc. - Common Stock,AUUD
+Auddia Inc.,Auddia Inc. - Warrants,AUUDW
+Aveanna Healthcare,Aveanna Healthcare Holdings Inc. - Common Stock,AVAH
+"AeroVironment, Inc.","AeroVironment, Inc. - Common Stock",AVAV
+"ArriVent BioPharma,","ArriVent BioPharma, Inc. - Common Stock",AVBP
+Avadel Pharmaceuticals,Avadel Pharmaceuticals plc - Ordinary Share,AVDL
+"AvidXchange Holdings,","AvidXchange Holdings, Inc. - Common Stock",AVDX
+Avantis Credit,Avantis Credit ETF,AVGB
+Leverage Shares,Leverage Shares 2X Long AVGO Daily ETF,AVGG
+Broadcom Inc.,Broadcom Inc. - Common Stock,AVGO
+Defiance Daily,Defiance Daily Target 2X Long AVGO ETF,AVGX
+"Atea Pharmaceuticals,","Atea Pharmaceuticals, Inc. - common stock",AVIR
+Direxion Daily,Direxion Daily AVGO Bull 2X Shares,AVL
+"Aviat Networks,","Aviat Networks, Inc. - Common Stock",AVNW
+"Mission Produce,","Mission Produce, Inc. - Common Stock",AVO
+"AvePoint, Inc.","AvePoint, Inc. - Class A Common Stock",AVPT
+"AvePoint, Inc.","AvePoint, Inc. - Warrant",AVPTW
+Anteris Technologies,Anteris Technologies Global Corp. - Common Stock,AVR
+Direxion Daily,Direxion Daily AVGO Bear 1X Shares,AVS
+"Avnet, Inc.","Avnet, Inc. - Common Stock",AVT
+"Avalo Therapeutics,","Avalo Therapeutics, Inc. - Common Stock",AVTX
+Avantis U.S.,Avantis U.S. Quality ETF,AVUQ
+Avantis Emerging,Avantis Emerging Markets ex-China Equity ETF,AVXC
+Anavex Life,Anavex Life Sciences Corp. - Common Stock,AVXL
+"Aware, Inc.","Aware, Inc. - Common Stock",AWRE
+"Axogen, Inc.","Axogen, Inc. - Common Stock",AXGN
+"Axon Enterprise,","Axon Enterprise, Inc. - Common Stock",AXON
+"Axsome Therapeutics,","Axsome Therapeutics, Inc. - Common Stock",AXSM
+AXT Inc,AXT Inc - Common Stock,AXTI
+"AYRO, Inc.","AYRO, Inc. - Common Stock",AYRO
+"Aytu BioPharma,","Aytu BioPharma, Inc.  - Common Stock",AYTU
+A2Z Cust2Mate,A2Z Cust2Mate Solutions Corp. - Common Shares,AZ
+Autozi Internet,Autozi Internet Technology (Global) Ltd. - Class A Ordinary Shares,AZI
+AstraZeneca PLC,AstraZeneca PLC - American Depositary Shares,AZN
+"Azenta, Inc.","Azenta, Inc. - Common Stock",AZTA
+GraniteShares 2x,GraniteShares 2x Long BABA Daily ETF,BABX
+Bleichroeder Acquisition,Bleichroeder Acquisition Corp. I - Class A Ordinary Shares,BACQ
+Bleichroeder Acquisition,Bleichroeder Acquisition Corp. I - Right,BACQR
+Bleichroeder Acquisition,Bleichroeder Acquisition Corp. I - Unit,BACQU
+Bridger Aerospace,"Bridger Aerospace Group Holdings, Inc. - Common Stock",BAER
+Bridger Aerospace,"Bridger Aerospace Group Holdings, Inc. - Warrant",BAERW
+Brown Advisory,Brown Advisory Flexible Equity ETF,BAFE
+BayFirst Financial,BayFirst Financial Corp. - Common Stock,BAFN
+Bandwidth Inc.,Bandwidth Inc. - Class A Common Stock,BAND
+BancFirst Corporation,BancFirst Corporation - Common Stock,BANF
+BancFirst Corporation,BancFirst Corporation - 7.2% Cumulative Trust Preferred Securities,BANFP
+CBL International,CBL International Limited - Ordinary Shares,BANL
+Banner Corporation,Banner Corporation - Common Stock,BANR
+ArrowMark Financial,ArrowMark Financial Corp. - Closed End Fund,BANX
+Baosheng Media,Baosheng Media Group Holdings Limited - Ordinary shares,BAOS
+"Couchbase, Inc.","Couchbase, Inc. - Common Stock",BASE
+Atlanta Braves,"Atlanta Braves Holdings, Inc. - Series A Common Stock",BATRA
+Atlanta Braves,"Atlanta Braves Holdings, Inc. - Series C Common Stock",BATRK
+Bayview Acquisition,Bayview Acquisition Corp - Ordinary Share,BAYA
+Bayview Acquisition,Bayview Acquisition Corp - Right,BAYAR
+Bayview Acquisition,Bayview Acquisition Corp - Unit,BAYAU
+Concrete Pumping,"Concrete Pumping Holdings, Inc.  - Common Stock",BBCP
+Beasley Broadcast,"Beasley Broadcast Group, Inc. - Class A Common Stock",BBGI
+VanEck Biotech,VanEck Biotech ETF,BBH
+"BridgeBio Pharma,","BridgeBio Pharma, Inc. - Common Stock",BBIO
+Bone Biologics,Bone Biologics Corp - Common Stock,BBLG
+Bone Biologics,Bone Biologics Corp - warrants,BBLGW
+"Beta Bionics,","Beta Bionics, Inc. - Common Stock",BBNX
+Barrett Business,"Barrett Business Services, Inc. - Common Stock",BBSI
+"BioAtla, Inc.","BioAtla, Inc. - Common Stock",BCAB
+California BanCorp,California BanCorp - Common Stock,BCAL
+Bicara Therapeutics,Bicara Therapeutics Inc. - Common Stock,BCAX
+"BCB Bancorp,","BCB Bancorp, Inc. (NJ) - Common Stock",BCBP
+"BioCardia, Inc.","BioCardia, Inc. - Common Stock",BCDA
+Binah Capital,"Binah Capital Group, Inc. - Common Stock",BCG
+Binah Capital,"Binah Capital Group, Inc. - Warrants",BCGWW
+Brainstorm Cell,Brainstorm Cell Therapeutics Inc. - Common Stock,BCLI
+iShares BBB-B,iShares BBB-B CLO Active ETF,BCLO
+BayCom Corp,BayCom Corp - Common Stock,BCML
+Balchem Corporation,Balchem Corporation - Common Stock,BCPC
+"BioCryst Pharmaceuticals,","BioCryst Pharmaceuticals, Inc. - Common Stock",BCRX
+BriaCell Therapeutics,BriaCell Therapeutics Corp. - Common Shares,BCTX
+BriaCell Therapeutics,BriaCell Therapeutics Corp. - Warrant,BCTXW
+BriaCell Therapeutics,BriaCell Therapeutics Corp. - Warrant,BCTXZ
+Bicycle Therapeutics,Bicycle Therapeutics plc - American Depositary Shares,BCYC
+Bridges Capital,Bridges Capital Tactical ETF,BDGS
+Baird Medical,Baird Medical Investment Holdings Ltd - Ordinary Share,BDMD
+Baird Medical,Baird Medical Investment Holdings Ltd - Warrant,BDMDW
+Biodexa Pharmaceuticals,Biodexa Pharmaceuticals plc - American Depositary Shares,BDRX
+"Biodesix, Inc.","Biodesix, Inc. - Common Stock",BDSX
+Black Diamond,"Black Diamond Therapeutics, Inc. - Common Stock",BDTX
+Bold Eagle,Bold Eagle Acquisition Corp. - Class A Ordinary Shares,BEAG
+Bold Eagle,Bold Eagle Acquisition Corp. - Right,BEAGR
+Bold Eagle,Bold Eagle Acquisition Corp. - Units,BEAGU
+Beam Therapeutics,Beam Therapeutics Inc. - Common Stock,BEAM
+"Heartbeam, Inc.","Heartbeam, Inc. - Common Stock",BEAT
+"Heartbeam, Inc.","Heartbeam, Inc. - Warrant",BEATW
+Beam Global,Beam Global - Common Stock,BEEM
+The Beehive,The Beehive ETF,BEEX
+Honeytree U.S.,Honeytree U.S. Equity ETF,BEEZ
+Bel Fuse,Bel Fuse Inc. - Class A Common Stock,BELFA
+Bel Fuse,Bel Fuse Inc. - Class B Common Stock,BELFB
+iShares Long-Term,iShares Long-Term U.S. Equity Active ETF,BELT
+Beneficient -,Beneficient - Class A Common Stock,BENF
+Beneficient -,Beneficient - Warrant,BENFW
+Better Home,Better Home & Finance Holding Company - Class A Common Stock,BETR
+Better Home,Better Home & Finance Holding Company - Warrant,BETRW
+Bank First,Bank First Corporation - Common Stock,BFC
+BankFinancial Corporation,BankFinancial Corporation - Common Stock,BFIN
+Bullfrog AI,"Bullfrog AI Holdings, Inc. - Common Stock",BFRG
+Bullfrog AI,"Bullfrog AI Holdings, Inc. - Warrants",BFRGW
+Biofrontera Inc.,Biofrontera Inc. - Common Stock,BFRI
+Biofrontera Inc.,Biofrontera Inc. - Warrants,BFRIW
+Business First,"Business First Bancshares, Inc. - Common Stock",BFST
+"BGC Group,","BGC Group, Inc. - Class A Common Stock",BGC
+Big 5,Big 5 Sporting Goods Corporation - Common Stock,BGFV
+BioNexus Gene,BioNexus Gene Lab Corp - Common stock,BGLC
+BGM Group,BGM Group Ltd. - Class A Ordinary Shares,BGM
+iShares USD,iShares USD Green Bond ETF,BGRN
+iShares Large,iShares Large Cap Growth Active ETF,BGRO
+Blue Hat,Blue Hat Interactive Entertainment Technology - Ordinary Shares,BHAT
+"Brighthouse Financial,","Brighthouse Financial, Inc. - Common Stock",BHF
+"Brighthouse Financial,","Brighthouse Financial, Inc. - Junior Subordinated Debentures due 2058",BHFAL
+"Brighthouse Financial,","Brighthouse Financial, Inc. - Depositary shares each representing a 1/1,000th Interest in a Share of 4.625% Non-Cumulative Preferred Stock, Series D",BHFAM
+"Brighthouse Financial,","Brighthouse Financial, Inc. - depositary shares, each representing a 1/1,000th interest in a share of 5.375% Non-Cumulative Preferred Stock, Series C",BHFAN
+"Brighthouse Financial,","Brighthouse Financial, Inc. - Depositary Shares, each representing a 1/1,000th interest in a share of 6.750% Non-Cumulative Preferred Stock, Series B",BHFAO
+"Brighthouse Financial,","Brighthouse Financial, Inc. - Depositary Shares 6.6% Non-Cumulative Preferred Stock, Series A",BHFAP
+Burke &,Burke & Herbert Financial Services Corp. - Common Stock,BHRB
+BioHarvest Sciences,BioHarvest Sciences Inc. - Common Stock,BHST
+"bioAffinity Technologies,","bioAffinity Technologies, Inc. - Common Stock",BIAF
+"bioAffinity Technologies,","bioAffinity Technologies, Inc. - Warrant",BIAFW
+ProShares Ultra,ProShares Ultra Nasdaq Biotechnology,BIB
+"Baidu, Inc.","Baidu, Inc. - American Depositary Shares, each representing 8 ordinary share",BIDU
+"BigCommerce Holdings,","BigCommerce Holdings, Inc. - Series 1 Common Stock",BIGC
+Biogen Inc.,Biogen Inc. - Common Stock,BIIB
+Bilibili Inc.,Bilibili Inc. - American Depositary Shares,BILI
+"BioAge Labs,","BioAge Labs, Inc. - Common Stock",BIOA
+Bioceres Crop,Bioceres Crop Solutions Corp. - Ordinary Shares,BIOX
+"Allbirds, Inc.","Allbirds, Inc. - Class A Common Stock",BIRD
+ProShares UltraShort,ProShares UltraShort Nasdaq Biotechnology,BIS
+Bitfarms Ltd.,Bitfarms Ltd. - Common Stock,BITF
+Global X,Global X Blockchain & Bitcoin Strategy ETF,BITS
+BioVie Inc.,BioVie Inc. - Common stock,BIVI
+Baiya International,Baiya International Group Inc.  - Ordinary Shares,BIYA
+"Bluejay Diagnostics,","Bluejay Diagnostics, Inc. - Common Stock",BJDX
+VanEck Gaming,VanEck Gaming ETF,BJK
+"BJ's Restaurants,","BJ's Restaurants, Inc. - Common Stock",BJRI
+Global X,Global X Blockchain ETF,BKCH
+Black Hawk,Black Hawk Acquisition Corporation - Class A Ordinary Shares,BKHA
+Black Hawk,Black Hawk Acquisition Corporation - Rights,BKHAR
+Black Hawk,Black Hawk Acquisition Corporation - Units,BKHAU
+BNY Mellon,BNY Mellon Innovators ETF,BKIV
+Booking Holdings,Booking Holdings Inc. - Common Stock,BKNG
+Baker Hughes,Baker Hughes Company - Common Stock,BKR
+BNY Mellon,BNY Mellon Women's Opportunities ETF,BKWO
+"BIO-key International,","BIO-key International, Inc. - Common Stock",BKYI
+"BlackLine, Inc.","BlackLine, Inc. - Common Stock",BL
+Blue Bird,Blue Bird Corporation - Common Stock,BLBD
+Blackboxstocks Inc.,Blackboxstocks Inc. - Common Stock,BLBX
+Siren Nasdaq,Siren Nasdaq NexGen Economy ETF,BLCN
+iShares Large,iShares Large Cap Core Active ETF,BLCR
+Blade Air,"Blade Air Mobility, Inc. - Class A Common Stock",BLDE
+Blade Air,"Blade Air Mobility, Inc. - Warrants",BLDEW
+Ballard Power,"Ballard Power Systems, Inc. - Common Shares",BLDP
+"BioLife Solutions,","BioLife Solutions, Inc. - Common Stock",BLFS
+Blue Foundry,Blue Foundry Bancorp - Common Stock,BLFY
+"Bridgeline Digital,","Bridgeline Digital, Inc. - Common Stock",BLIN
+BeLive Holdings,BeLive Holdings - ordinary shares,BLIV
+"Blackbaud, Inc.","Blackbaud, Inc. - Common Stock",BLKB
+"Bloomin' Brands,","Bloomin' Brands, Inc. - Common Stock",BLMN
+BloomZ Inc.,BloomZ Inc. - Ordinary Shares,BLMZ
+"Beeline Holdings,","Beeline Holdings, Inc. - Common Stock",BLNE
+Blink Charging,Blink Charging Co. - Common Stock,BLNK
+BioLineRx Ltd.,BioLineRx Ltd. - American Depositary Shares,BLRX
+"Belite Bio,","Belite Bio, Inc - American Depositary Shares",BLTE
+"bluebird bio,","bluebird bio, Inc. - Common Stock",BLUE
+"Backblaze, Inc.","Backblaze, Inc. - Class A Common Stock",BLZE
+REX Bitcoin,REX Bitcoin Corporate Treasury Convertible Bond ETF,BMAX
+Bumble Inc.,Bumble Inc. - common stock,BMBL
+VictoryShares WestEnd,VictoryShares WestEnd Economic Cycle Bond ETF,BMDL
+"Biomea Fusion,","Biomea Fusion, Inc. - Common Stock",BMEA
+Basel Medical,Basel Medical Group Ltd - ordinary shares,BMGL
+Beamr Imaging,Beamr Imaging Ltd. - Ordinary Share,BMR
+"Biomerica, Inc.","Biomerica, Inc. - Common Stock",BMRA
+Bank of,Bank of Marin Bancorp - Common Stock,BMRC
+BioMarin Pharmaceutical,BioMarin Pharmaceutical Inc. - Common Stock,BMRN
+Brand Engagement,Brand Engagement Network Inc. - Common Stock,BNAI
+Brand Engagement,Brand Engagement Network Inc. - Warrant,BNAIW
+Vanguard Total,Vanguard Total Bond Market ETF,BND
+Vanguard Total,Vanguard Total World Bond ETF,BNDW
+Vanguard Total,Vanguard Total International Bond ETF,BNDX
+"Bionano Genomics,","Bionano Genomics, Inc. - Common Stock",BNGO
+Burning Rock,Burning Rock Biotech Limited - American Depositary Shares,BNR
+Brenmiller Energy,Brenmiller Energy Ltd - Ordinary Shares,BNRG
+Benitec Biopharma,Benitec Biopharma Inc. - Common Stock,BNTC
+BioNTech SE,BioNTech SE - American Depositary Shares,BNTX
+"Banzai International,","Banzai International, Inc. - Class A Common Stock",BNZI
+"Banzai International,","Banzai International, Inc. - Warrant",BNZIW
+Direxion Daily,Direxion Daily BA Bear 1X Shares,BOED
+Direxion Daily,Direxion Daily BA Bull 2X Shares,BOEU
+BranchOut Food,BranchOut Food Inc. - Common Stock,BOF
+BOK Financial,BOK Financial Corporation - Common Stock,BOKF
+"Boundless Bio,","Boundless Bio, Inc. - Common Stock",BOLD
+"Bolt Biotherapeutics,","Bolt Biotherapeutics, Inc. - Common Stock",BOLT
+Bon Natural,Bon Natural Life Limited - Class A Ordinary Shares,BON
+DMC Global,DMC Global Inc. - Common Stock,BOOM
+B.O.S. Better,B.O.S. Better Online Solutions - Ordinary Shares,BOSC
+Bank of,"Bank of the James Financial Group, Inc. - Common Stock",BOTJ
+Themes Robotics,Themes Robotics & Automation ETF,BOTT
+Global X,Global X Robotics & Artificial Intelligence ETF,BOTZ
+Bowen Acquisition,Bowen Acquisition Corp - Ordinary Shares,BOWN
+Bowen Acquisition,Bowen Acquisition Corp - Rights,BOWNR
+Bowen Acquisition,Bowen Acquisition Corp - Unit,BOWNU
+Boxlight Corporation,Boxlight Corporation - Class A Common Stock,BOXL
+Blueprint Medicines,Blueprint Medicines Corporation - Common Stock,BPMC
+"Popular, Inc.","Popular, Inc. - Common Stock",BPOP
+"Popular, Inc.","Popular, Inc. - Popular Capital Trust II - 6.125% Cumulative Monthly Income Trust Preferred Securities",BPOPM
+"Princeton Bancorp,","Princeton Bancorp, Inc. - Common Stock",BPRN
+Brookfield Property,"Brookfield Property Partners L.P. - 6.25% Class A Cumulative Redeemable Preferred Units, Series 1",BPYPM
+Brookfield Property,"Brookfield Property Partners L.P. - 5.750% Class A Cumulative Redeemable Perpetual Preferred Units, Series 3",BPYPN
+Brookfield Property,"Brookfield Property Partners L.P. - 6.375% Class A Cumulative Redeemable Perpetual Preferred Units, Series 2",BPYPO
+Brookfield Property,Brookfield Property Partners L.P. - 6.50% Class A Cumulative Redeemable Perpetual Preferred Units,BPYPP
+Bragg Gaming,Bragg Gaming Group Inc. - Common Shares,BRAG
+Brera Holdings,Brera Holdings PLC - Class B Ordinary Shares,BREA
+Barfresh Food,Barfresh Food Group Inc. - Common Stock,BRFH
+iShares High,iShares High Yield Active ETF,BRHY
+Bridgford Foods,Bridgford Foods Corporation - Common Stock,BRID
+Direxion Daily,Direxion Daily BRKB Bear 1X Shares,BRKD
+"Brookline Bancorp,","Brookline Bancorp, Inc. - Common Stock",BRKL
+Bruker Corporation,Bruker Corporation - Common Stock,BRKR
+Direxion Daily,Direxion Daily BRKB Bull 2X Shares,BRKU
+Borealis Foods,Borealis Foods Inc. - Class A Common Shares,BRLS
+Borealis Foods,Borealis Foods Inc. - Warrant,BRLSW
+Brilliant Earth,"Brilliant Earth Group, Inc. - Class A Common Stock",BRLT
+Barinthus Biotherapeutics,Barinthus Biotherapeutics plc - American Depositary Shares,BRNS
+Burney U.S.,Burney U.S. Factor Rotation ETF,BRNY
+Brooge Energy,Brooge Energy Limited  - Ordinary Shares,BROG
+Coinshares Valkyrie,Coinshares Valkyrie Bitcoin Fund,BRRR
+iShares Total,iShares Total Return Active ETF,BRTR
+"BioRestorative Therapies,","BioRestorative Therapies, Inc. - Common Stock",BRTX
+Berry Corporation,Berry Corporation (bry) - Common Stock,BRY
+"Braze, Inc.","Braze, Inc. - Class A Common Stock",BRZE
+Bogota Financial,Bogota Financial Corp. - Common Stock,BSBK
+Invesco BulletShares,Invesco BulletShares 2025 Corporate Bond ETF,BSCP
+Invesco BulletShares,Invesco BulletShares 2026 Corporate Bond ETF,BSCQ
+Invesco BulletShares,Invesco BulletShares 2027 Corporate Bond ETF,BSCR
+Invesco BulletShares,Invesco BulletShares 2028 Corporate Bond ETF,BSCS
+Invesco BulletShares,Invesco BulletShares 2029 Corporate Bond ETF,BSCT
+Invesco BulletShares,Invesco BulletShares 2030 Corporate Bond ETF,BSCU
+Invesco BulletShares,Invesco BulletShares 2031 Corporate Bond ETF,BSCV
+Invesco BulletShares,Invesco BulletShares 2032 Corporate Bond ETF,BSCW
+Invesco BulletShares,Invesco BulletShares 2033 Corporate Bond ETF,BSCX
+Invesco BulletShares,Invesco BulletShares 2034 Corporate Bond ETF,BSCY
+Bassett Furniture,"Bassett Furniture Industries, Incorporated - Common Stock",BSET
+"BioSig Technologies,","BioSig Technologies, Inc. - Common Stock",BSGM
+Black Spade,Black Spade Acquisition II Co - Class A Ordinary Share,BSII
+Black Spade,Black Spade Acquisition II Co - unit,BSIIU
+Black Spade,Black Spade Acquisition II Co - Warrant,BSIIW
+Invesco BulletShares,Invesco BulletShares 2025 High Yield Corporate Bond ETF,BSJP
+Invesco BulletShares,Invesco BulletShares 2026 High Yield Corporate Bond ETF,BSJQ
+Invesco BulletShares,Invesco BulletShares 2027 High Yield Corporate Bond ETF,BSJR
+Invesco BulletShares,Invesco BulletShares 2028 High Yield Corporate Bond ETF,BSJS
+Invesco BulletShares,Invesco BulletShares 2029 High Yield Corporate Bond ETF,BSJT
+Invesco BulletShares,Invesco BulletShares 2030 High Yield Corporate Bond ETF,BSJU
+Invesco BulletShares,Invesco BulletShares 2031 High Yield Corporate Bond ETF,BSJV
+Invesco BulletShares,Invesco BulletShares 2032 High Yield Corporate Bond ETF,BSJW
+Bolt Projects,"Bolt Projects Holdings, Inc. - Common Stock",BSLK
+Bolt Projects,"Bolt Projects Holdings, Inc. - Warrant",BSLKW
+Invesco BulletShares,Invesco BulletShares 2025 Municipal Bond ETF,BSMP
+Invesco BulletShares,Invesco BulletShares 2026 Municipal Bond ETF,BSMQ
+Invesco BulletShares,Invesco BulletShares 2027 Municipal Bond ETF,BSMR
+Invesco BulletShares,Invesco BulletShares 2028 Municipal Bond ETF,BSMS
+Invesco BulletShares,Invesco BulletShares 2029 Municipal Bond ETF,BSMT
+Invesco BulletShares,Invesco BulletShares 2030 Municipal Bond ETF,BSMU
+Invesco BulletShares,Invesco BulletShares 2031 Municipal Bond ETF,BSMV
+Invesco BulletShares,Invesco BulletShares 2032 Municipal Bond ETF,BSMW
+Invesco BulletShares,Invesco BulletShares 2034 Municipal Bond ETF,BSMY
+Sierra Bancorp,Sierra Bancorp - Common Stock,BSRR
+Invesco BulletShares,Invesco BulletShares 2033 Municipal Bond ETF,BSSX
+Bank7 Corp.,Bank7 Corp. - Common stock,BSVN
+EA Bridgeway,EA Bridgeway Omni Small-Cap Value ETF,BSVO
+"Bentley Systems,","Bentley Systems, Incorporated - Class B Common Stock",BSY
+"BioXcel Therapeutics,","BioXcel Therapeutics, Inc. - Common Stock",BTAI
+"BT Brands,","BT Brands, Inc. - Common Stock",BTBD
+"BT Brands,","BT Brands, Inc. - Warrant",BTBDW
+"Bit Digital,","Bit Digital, Inc. - Ordinary Share",BTBT
+BTCS Inc.,BTCS Inc. - Common Stock,BTCS
+BTC Digital,BTC Digital Ltd. - Ordinary Shares,BTCT
+Bitdeer Technologies,Bitdeer Technologies Group - Ordinary Shares,BTDR
+CoinShares Valkyrie,CoinShares Valkyrie Bitcoin and Ether Strategy ETF,BTF
+CoinShares Valkyrie,CoinShares Valkyrie Bitcoin Futures Leveraged Strategy ETF,BTFX
+STKd 100%,STKd 100% Bitcoin & 100% Gold ETF,BTGD
+Bitcoin Depot,Bitcoin Depot Inc. - Class A Common Stock,BTM
+Biote Corp.,Biote Corp. - Class A common stock,BTMD
+Bitcoin Depot,Bitcoin Depot Inc. - Warrant,BTMWW
+Armlogi Holding,Armlogi Holding Corp. - common stock,BTOC
+Bit Origin,Bit Origin Limited - Class A Ordinary Shares,BTOG
+BrightSpring Health,"BrightSpring Health Services, Inc. - Common Stock",BTSG
+BrightSpring Health,"BrightSpring Health Services, Inc. - Tangible Equity Unit",BTSGU
+AB Conservative,AB Conservative Buffer ETF,BUFC
+AB International,AB International Buffer ETF,BUFI
+AB Moderate,AB Moderate Buffer ETF,BUFM
+Global X,Global X Cybersecurity ETF,BUG
+Pacer BlueStar,Pacer BlueStar Engineering the Future ETF,BULD
+Webull Corporation,Webull Corporation - Class A Ordinary Shares,BULL
+Webull Corporation,Webull Corporation - Warrants,BULLW
+Webull Corporation,Webull Corporation - Incentive Warrant,BULLZ
+First Busey,First Busey Corporation - Common Stock,BUSE
+"BV Financial,","BV Financial, Inc. - Common Stock",BVFL
+Bioventus Inc.,Bioventus Inc. - Class A Common Stock,BVS
+BrainsWay Ltd.,BrainsWay Ltd. - American Depositary Shares,BWAY
+"Bridgewater Bancshares,","Bridgewater Bancshares, Inc. - Common Stock",BWB
+"Bridgewater Bancshares,","Bridgewater Bancshares, Inc. - Depositary Shares, Each Representing a 1/100th Interest in a Share of 5.875% Non-Cumulative Perpetual Preferred Stock, Series A",BWBBP
+"Broadwind, Inc.","Broadwind, Inc. - Common Stock",BWEN
+Bankwell Financial,"Bankwell Financial Group, Inc. - Common Stock",BWFG
+The Baldwin,"The Baldwin Insurance Group, Inc. - Class A Common Stock",BWIN
+Bowman Consulting,Bowman Consulting Group Ltd. - Common Stock,BWMN
+Broadway Financial,Broadway Financial Corporation - Class A Common Stock,BYFC
+"Beyond Meat,","Beyond Meat, Inc. - Common stock",BYND
+"Byrna Technologies,","Byrna Technologies, Inc. - Common Stock",BYRN
+"BeyondSpring, Inc.","BeyondSpring, Inc. - Ordinary Shares",BYSI
+KANZHUN LIMITED,KANZHUN LIMITED - American Depository Shares,BZ
+"Blaize Holdings,","Blaize Holdings, Inc. - Common Stock",BZAI
+"Blaize Holdings,","Blaize Holdings, Inc. - Warrant",BZAIW
+"BuzzFeed, Inc.","BuzzFeed, Inc. - Class A Common Stock",BZFD
+"BuzzFeed, Inc.","BuzzFeed, Inc. - Warrant",BZFDW
+Baozun Inc.,Baozun Inc. - American Depositary Shares,BZUN
+Xtrackers California,Xtrackers California Municipal Bonds ETF,CA
+China Automotive,"China Automotive Systems, Inc. - Common Stock",CAAS
+"Cabaletta Bio,","Cabaletta Bio, Inc. - Common Stock",CABA
+Camden National,Camden National Corporation - Common Stock,CAC
+Credit Acceptance,Credit Acceptance Corporation - Common Stock,CACC
+"Candel Therapeutics,","Candel Therapeutics, Inc. - Common Stock",CADL
+Pacer US,Pacer US Small Cap Cash Cows Growth Leaders ETF,CAFG
+The Cheesecake,The Cheesecake Factory Incorporated - Common Stock,CAKE
+"CalciMedica, Inc.","CalciMedica, Inc. - Common Stock",CALC
+iShares Short-Term,iShares Short-Term California Muni Active ETF,CALI
+"Cal-Maine Foods,","Cal-Maine Foods, Inc. - Common Stock",CALM
+CAMP4 Therapeutics,CAMP4 Therapeutics Corporation - Common Stock,CAMP
+Camtek Ltd.,Camtek Ltd. - Ordinary Shares,CAMT
+Canaan Inc.,Canaan Inc. - American Depositary Shares,CAN
+Tema Oncology,Tema Oncology ETF,CANC
+Calamos Nasdaq,Calamos Nasdaq Equity & Income ETF,CANQ
+Cayson Acquisition,Cayson Acquisition Corp - Ordinary Shares,CAPN
+Cayson Acquisition,Cayson Acquisition Corp - Right,CAPNR
+Cayson Acquisition,Cayson Acquisition Corp - Units,CAPNU
+"Capricor Therapeutics,","Capricor Therapeutics, Inc. - Common Stock",CAPR
+Capstone Holding,Capstone Holding Corp. - Common Stock,CAPS
+Captivision Inc.,Captivision Inc. - Ordinary Shares,CAPT
+Captivision Inc.,Captivision Inc. - Warrant,CAPTW
+Avis Budget,"Avis Budget Group, Inc. - Common Stock",CAR
+"Carter Bankshares,","Carter Bankshares, Inc. - Common Stock",CARE
+"CarGurus, Inc.","CarGurus, Inc. - Class A Common Stock",CARG
+"Carisma Therapeutics,","Carisma Therapeutics, Inc. - Common Stock",CARM
+Maplebear Inc.,Maplebear Inc. - Common Stock,CART
+"Carver Bancorp,","Carver Bancorp, Inc. - Common Stock",CARV
+Angel Oak,Angel Oak Income ETF,CARY
+First Trust,First Trust S-Network Electric & Future Vehicle Ecosystem ETF,CARZ
+"Pathward Financial,","Pathward Financial, Inc. - Common Stock",CASH
+"CASI Pharmaceuticals,","CASI Pharmaceuticals, Inc. - Ordinary Shares",CASI
+Heritage Distilling,"Heritage Distilling Holding Company, Inc. - Common Stock",CASK
+Cass Information,"Cass Information Systems, Inc - Common Stock",CASS
+Caseys General,"Caseys General Stores, Inc. - Common Stock",CASY
+Global X,Global X S&P 500 Catholic Values ETF,CATH
+Cathay General,Cathay General Bancorp - Common Stock,CATY
+CBAK Energy,"CBAK Energy Technology, Inc. - Common Stock",CBAT
+CB Financial,"CB Financial Services, Inc. - Common Stock",CBFV
+"CeriBell, Inc.","CeriBell, Inc. - Common Stock",CBLL
+"Capital Bancorp,","Capital Bancorp, Inc. - Common Stock",CBNK
+Cracker Barrel,"Cracker Barrel Old Country Store, Inc. - Common Stock",CBRL
+"Commerce Bancshares,","Commerce Bancshares, Inc. - Common Stock",CBSH
+"Cibus, Inc.","Cibus, Inc. - Class A Common Stock",CBUS
+Crescent Capital,"Crescent Capital BDC, Inc. - Common Stock",CCAP
+Coastal Financial,Coastal Financial Corporation - Common Stock,CCB
+Capital City,Capital City Bank Group - Common Stock,CCBG
+"C4 Therapeutics,","C4 Therapeutics, Inc. - Common Stock",CCCC
+Columbus Circle,Columbus Circle Capital Corp I - Units,CCCMU
+CCC Intelligent,CCC Intelligent Solutions Holdings Inc. - Common Stock,CCCS
+Churchill Capital,Churchill Capital Corp X - Unit,CCCXU
+Calamos Dynamic,Calamos Dynamic Convertible & Income Fund - Closed End Fund,CCD
+Capital Clean,Capital Clean Energy Carriers Corp. - Common Share,CCEC
+Coca-Cola Europacific,Coca-Cola Europacific Partners plc - Ordinary Shares,CCEP
+Cheche Group,Cheche Group Inc. - Class A Ordinary Shares,CCG
+Cheche Group,Cheche Group Inc. - Warrant,CCGWW
+Cohen Circle,Cohen Circle Acquisition Corp. I - Class A Ordinary Shares,CCIR
+Cohen Circle,Cohen Circle Acquisition Corp. I - Unit,CCIRU
+Cohen Circle,Cohen Circle Acquisition Corp. I - Warrant,CCIRW
+Churchill Capital,Churchill Capital Corp IX - Ordinary Shares,CCIX
+Churchill Capital,Churchill Capital Corp IX - Unit,CCIXU
+Churchill Capital,Churchill Capital Corp IX - Warrant,CCIXW
+"CareCloud, Inc.","CareCloud, Inc. - Common Stock",CCLD
+"CareCloud, Inc.","CareCloud, Inc. - 8.75% Series B Cumulative Redeemable Perpetual Preferred Stock",CCLDO
+CNB Financial,CNB Financial Corporation - Common Stock,CCNE
+CNB Financial,"CNB Financial Corporation - Depositary shares, each representing a 1/40th ownership interest in a share of 7.125% Series A Fixed- Rate Non-Cumulative Perpetual Preferred Stock",CCNEP
+ALPS/CoreCommodity Natural,ALPS/CoreCommodity Natural Resources ETF,CCNR
+Cogent Communications,"Cogent Communications Holdings, Inc. - Common Stock",CCOI
+Cross Country,"Cross Country Healthcare, Inc. - Common Stock",CCRN
+Carbon Collective,Carbon Collective Short Duration Green Bond ETF,CCSB
+Consensus Cloud,"Consensus Cloud Solutions, Inc. - Common Stock",CCSI
+Carbon Collective,Carbon Collective Climate Solutions U.S. Equity ETF,CCSO
+CCSC Technology,CCSC Technology International Holdings Limited - Class A Ordinary Shares,CCTG
+VictoryShares US,VictoryShares US EQ Income Enhanced Volatility Wtd ETF,CDC
+Cardio Diagnostics,Cardio Diagnostics Holdings Inc. - Common stock,CDIO
+Cardio Diagnostics,Cardio Diagnostics Holdings Inc. - Warrant,CDIOW
+VictoryShares US,VictoryShares US Large Cap High Div Volatility Wtd ETF,CDL
+"Cardlytics, Inc.","Cardlytics, Inc. - Common Stock",CDLX
+"CareDx, Inc.","CareDx, Inc. - Common Stock",CDNA
+Cadence Design,"Cadence Design Systems, Inc. - Common Stock",CDNS
+Codere Online,"Codere Online Luxembourg, S.A. - Ordinary Shares",CDRO
+Codere Online,"Codere Online Luxembourg, S.A. - Warrants",CDROW
+Conduit Pharmaceuticals,Conduit Pharmaceuticals Inc.  - Common Stock,CDT
+CDT Environmental,CDT Environmental Technology Investment Holdings Limited - ordinary shares,CDTG
+Conduit Pharmaceuticals,Conduit Pharmaceuticals Inc.  - Warrant,CDTTW
+"Cidara Therapeutics,","Cidara Therapeutics, Inc. - Common Stock",CDTX
+CDW Corporation,CDW Corporation - Common Stock,CDW
+"Codexis, Inc.","Codexis, Inc. - Common Stock",CDXS
+"Cadiz, Inc.","Cadiz, Inc. - Common Stock",CDZI
+"Cadiz, Inc.","Cadiz, Inc. - Depositary Shares",CDZIP
+CEA Industries,CEA Industries Inc. - Common Stock,CEAD
+CEA Industries,CEA Industries Inc. - Warrant,CEADW
+CECO Environmental,CECO Environmental Corp. - Common Stock,CECO
+Global X,Global X S&P Catholic Values Developed ex-U.S. ETF,CEFA
+Constellation Energy,Constellation Energy Corporation - Common Stock,CEG
+Celcuity Inc.,Celcuity Inc. - Common Stock,CELC
+"Celsius Holdings,","Celsius Holdings, Inc. - Common Stock",CELH
+Celularity Inc.,Celularity Inc. - Class A Common Stock,CELU
+Celularity Inc.,Celularity Inc. - Warrant,CELUW
+Creative Medical,"Creative Medical Technology Holdings, Inc. - Common Stock",CELZ
+Cenntro Inc.,Cenntro Inc. - Common Stock,CENN
+Central Garden,Central Garden & Pet Company - Common Stock,CENT
+Central Garden,Central Garden & Pet Company - Class A Common Stock Nonvoting,CENTA
+Century Aluminum,Century Aluminum Company - Common Stock,CENX
+Cantor Equity,"Cantor Equity Partners, Inc. - Class A ordinary shares",CEP
+REX Crypto,REX Crypto Equity Premium Income ETF,CEPI
+Cantor Equity,"Cantor Equity Partners I, Inc. - Class A Ordinary Shares",CEPO
+Cantor Equity,"Cantor Equity Partners II, Inc. - Class A ordinary share",CEPT
+CERo Therapeutics,"CERo Therapeutics Holdings, Inc. - Common Stock",CERO
+CERo Therapeutics,"CERo Therapeutics Holdings, Inc. - Warrants",CEROW
+Cerus Corporation,Cerus Corporation - Common Stock,CERS
+"Certara, Inc.","Certara, Inc. - Common Stock",CERT
+Cemtrex Inc.,Cemtrex Inc. - Common Stock,CETX
+Clean Energy,"Clean Energy Technologies, Inc. - Common Stock",CETY
+"CEVA, Inc.","CEVA, Inc. - Common Stock",CEVA
+VictoryShares US,VictoryShares US 500 Volatility Wtd ETF,CFA
+CF Bankshares,CF Bankshares Inc. - Common Stock,CFBK
+C&F Financial,C&F Financial Corporation - Common Stock,CFFI
+Capitol Federal,"Capitol Federal Financial, Inc. - Common Stock",CFFN
+"Confluent, Inc.","Confluent, Inc. - Class A Common Stock",CFLT
+VictoryShares US,VictoryShares US 500 Enhanced Volatility Wtd ETF,CFO
+"CFSB Bancorp,","CFSB Bancorp, Inc. - Common Stock",CFSB
+The Carlyle,The Carlyle Group Inc. - Common Stock,CG
+The Carlyle,The Carlyle Group Inc. - 4.625% Subordinated Notes due 2061,CGABL
+Carlyle Secured,"Carlyle Secured Lending, Inc. - Closed End Fund",CGBD
+Carlyle Secured,"Carlyle Secured Lending, Inc. - 8.20% Notes due 2028",CGBDL
+Crown LNG,Crown LNG Holdings Limited - Ordinary Shares,CGBS
+Crown LNG,Crown LNG Holdings Limited - Warrants,CGBSW
+Canopy Growth,Canopy Growth Corporation - Common Shares,CGC
+Cartesian Growth,Cartesian Growth Corporation III - unit,CGCTU
+"Cullinan Therapeutics,","Cullinan Therapeutics, Inc. - Common Stock",CGEM
+Compugen Ltd.,Compugen Ltd. - Ordinary Shares,CGEN
+Cognyte Software,Cognyte Software Ltd. - Ordinary Shares,CGNT
+Cognex Corporation,Cognex Corporation - Common Stock,CGNX
+Calamos Global,Calamos Global Total Return Fund - Closed End Fund,CGO
+"CG Oncology,","CG Oncology, Inc. - Common stock",CGON
+Creative Global,Creative Global Technology Holdings Limited - Class A Ordinary Shares,CGTL
+"Cognition Therapeutics,","Cognition Therapeutics, Inc. - Common Stock",CGTX
+Chagee Holdings,"Chagee Holdings Limited - American Depositary Shares, each representing 1 Class A ordinary share",CHA
+Crane Harbor,Crane Harbor Acquisition Corp. - Units,CHACU
+Charlton Aria,Charlton Aria Acquisition Corporation - Class A Ordinary Shares,CHAR
+Charlton Aria,Charlton Aria Acquisition Corporation - Rights,CHARR
+Charlton Aria,Charlton Aria Acquisition Corporation - Units,CHARU
+Comstock Holding,"Comstock Holding Companies, Inc. - Class A Common Stock",CHCI
+City Holding,City Holding Company - Common Stock,CHCO
+"Churchill Downs,","Churchill Downs, Incorporated - Common Stock",CHDN
+The Chefs',"The Chefs' Warehouse, Inc. - Common Stock",CHEF
+Check-Cap Ltd.,Check-Cap Ltd. - Ordinary Share,CHEK
+Stance Sustainable,Stance Sustainable Beta ETF,CHGX
+Calamos Convertible,Calamos Convertible Opportunities and Income Fund - Closed End Fund,CHI
+Check Point,Check Point Software Technologies Ltd. - Ordinary Shares,CHKP
+Chemung Financial,Chemung Financial Corp  - Common Stock,CHMG
+China Natural,"China Natural Resources, Inc. - Common Shares",CHNR
+Xtrackers Semiconductor,Xtrackers Semiconductor Select Equity ETF,CHPS
+"Cheer Holding,","Cheer Holding, Inc.  - Class A Ordinary Share",CHR
+Chord Energy,Chord Energy Corporation - Common Stock,CHRD
+"Coherus BioSciences,","Coherus BioSciences, Inc. - Common Stock",CHRS
+C.H. Robinson,"C.H. Robinson Worldwide, Inc. - Common Stock",CHRW
+CHS Inc,"CHS Inc - Class B Cumulative Redeemable Preferred Stock, Series 4",CHSCL
+CHS Inc,"CHS Inc - Class B Reset Rate Cumulative Redeemable Preferred Stock, Series 3",CHSCM
+CHS Inc,CHS Inc - Preferred Class B Series 2 Reset Rate,CHSCN
+CHS Inc,CHS Inc - Class B Cumulative Redeemable Preferred Stock,CHSCO
+CHS Inc,CHS Inc - 8%  Cumulative Redeemable Preferred Stock,CHSCP
+Chanson International,Chanson International Holding - Class A Ordinary Shares,CHSN
+"Charter Communications,","Charter Communications, Inc. - Class A Common Stock",CHTR
+Calamos Global,Calamos Global Dynamic Income Fund - Closed End Fund,CHW
+ChampionX Corporation,ChampionX Corporation - Common Stock,CHX
+Calamos Convertible,Calamos Convertible and High Income Fund - Closed End Fund,CHY
+First Trust,First Trust NASDAQ Cybersecurity ETF,CIBR
+Cipher Mining,Cipher Mining Inc. - Common Stock,CIFR
+Cipher Mining,Cipher Mining Inc. - Warrant,CIFRW
+Colliers International,Colliers International Group Inc.  - Subordinate Voting Shares,CIGI
+Concorde International,Concorde International Group Ltd - Class A Ordinary Shares,CIGL
+"Tianci International,","Tianci International, Inc. - Common Stock",CIIT
+VictoryShares International,VictoryShares International Volatility Wtd ETF,CIL
+Cincinnati Financial,Cincinnati Financial Corporation - Common Stock,CINF
+Cingulate Inc.,Cingulate Inc. - Common Stock,CING
+Cingulate Inc.,Cingulate Inc. - Warrants,CINGW
+"CISO Global,","CISO Global, Inc. - Common Stock",CISO
+C3is Inc.,C3is Inc. - Common Stock,CISS
+"Civista Bancshares,","Civista Bancshares, Inc.  - Common Stock",CIVB
+Chijet Motor,"Chijet Motor Company, Inc. - Ordinary Shares",CJET
+Callan JMB,Callan JMB Inc. - Common Stock,CJMB

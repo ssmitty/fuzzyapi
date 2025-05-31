@@ -1,5 +1,5 @@
-Total test cases: 1023
-Correct company name matches: 970 (94.82%)
-Correct ticker matches: 970 (94.82%)
-Ticker prediction recall (public companies): 94.82%
+Total test cases: 920
+Correct company name matches: 868 (94.35%)
+Correct ticker matches: 869 (94.46%)
+Ticker prediction recall (public companies): 94.46%
 Non-public company specificity (true negative rate): 0.00%

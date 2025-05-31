@@ -94,3 +94,18 @@ I created a CSV of all public company names along with alot of private/non-publi
 
 ## License
 MIT 
+
+## Deployment (Render/Heroku)
+
+This app is ready for one-click deployment on platforms like Render or Heroku.
+
+1. **Push your code to GitHub.**
+2. **Create a new Web Service on Render or Heroku.**
+3. **Connect your GitHub repo.**
+4. **Build and start commands are auto-detected:**
+   - Build: `pip install -r requirements.txt`
+   - Start: `gunicorn app:app`
+5. **Set up any environment variables or persistent storage if needed.**
+6. **Deploy!**
+
+After deployment, visit `/apidocs` for the Swagger UI and `/` for the API root (or redirect to Swagger UI). 

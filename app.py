@@ -25,7 +25,13 @@ except Exception as err:
     sys.exit(1)
 
 app = Flask(__name__)
-swagger = Swagger(app)
+swagger = Swagger(app, template={
+    "info": {
+        "title": "Company Ticker Matching",
+        "description": "API for fuzzy matching company names and tickers.",
+        "version": "1.0.0"
+    }
+})
 
 @app.route("/")
 def root():
