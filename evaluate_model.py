@@ -2,14 +2,15 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(message)s')
 
 import pandas as pd
-from data_utils import best_match, load_public_companies
+from data_utils import best_match, load_public_companies, add_preprocessed_column
 
 # Load your dataset (only public companies)
 tickers_df = load_public_companies("supplemental_data/company_tickers.csv")
+tickers_df = add_preprocessed_column(tickers_df)
 
 # Load your test cases
 try:
-    test_df = pd.read_csv('supplemental_data/nyse_test.csv')
+    test_df = pd.read_csv('supplemental_data/half.csv')
     logging.info(f"Loaded test cases shape: {test_df.shape}")
     logging.info(f"Test cases columns: {test_df.columns}")
 except Exception as e:

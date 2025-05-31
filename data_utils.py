@@ -64,6 +64,11 @@ def load_public_companies(csv_path):
         raise
 
 
+def add_preprocessed_column(tickers_df):
+    tickers_df['preprocessed_title'] = tickers_df['title'].apply(preprocess_name)
+    return tickers_df
+
+
 def best_match(name, tickers_df):
     try:
         if not isinstance(name, str):
@@ -81,9 +86,9 @@ def best_match(name, tickers_df):
                 "score": 100
             }]
 
-        # 2. Preprocess the input name and proceed as before
+        # 2. Preprocess input and match against preprocessed company names
         name_processed = preprocess_name(name)
-        companies_list = tickers_df["title"].tolist()
+        companies_list = tickers_df["preprocessed_title"].tolist()
         matches = process.extract(name_processed, companies_list, limit=10)
         strong_matches = [(company, score) for company, score in matches if score >= 90]
 
@@ -93,7 +98,7 @@ def best_match(name, tickers_df):
 
         # Get the best match (highest score)
         best_match_name, best_score = max(strong_matches, key=lambda x: x[1])
-        matched_row = tickers_df[tickers_df["title"] == best_match_name]
+        matched_row = tickers_df[tickers_df["preprocessed_title"] == best_match_name]
         if matched_row.empty:
             logging.warning(f"Matched name {best_match_name} not found in public company list")
             return best_match_name, None, [], best_score, None, "Company is not in public company list", []
@@ -104,13 +109,13 @@ def best_match(name, tickers_df):
         all_possible_tickers = []
         top_matches = []
         for company, score in strong_matches:
-            row = tickers_df[tickers_df["title"] == company]
+            row = tickers_df[tickers_df["preprocessed_title"] == company]
             if not row.empty:
                 t = row.iloc[0]["ticker"]
                 if pd.notnull(t):
                     all_possible_tickers.append(t)
                 top_matches.append({
-                    "company_name": company,
+                    "company_name": row.iloc[0]["title"],
                     "ticker": t if pd.notnull(t) else None,
                     "score": score
                 })
@@ -118,7 +123,7 @@ def best_match(name, tickers_df):
         all_possible_tickers = list(dict.fromkeys(all_possible_tickers))
 
         ticker_score = 100 if ticker else None
-        return best_match_name, ticker, all_possible_tickers, best_score, ticker_score, None, top_matches
+        return matched_row['title'], ticker, all_possible_tickers, best_score, ticker_score, None, top_matches
     except Exception as e:
         logging.error(f"Error in best_match for name '{name}': {e}")
         return None, None, [], 0, None, "Company is not in public company list", []

@@ -5,8 +5,9 @@ import sys
 import subprocess
 import time
 import pandas as pd
-from flask import Flask,request, make_response
+from flask import Flask,request, make_response, redirect
 import data_utils
+from flasgger import Swagger
 
 APP_VERSION = "0.1.0"
 
@@ -18,68 +19,92 @@ logging.basicConfig(level=logging.INFO)
 try:
     TICKERS_DATA_PATH = "supplemental_data/company_tickers.csv"
     tickers_df = data_utils.load_public_companies(TICKERS_DATA_PATH)
+    tickers_df = data_utils.add_preprocessed_column(tickers_df)
 except Exception as err:
     logging.critical("Failed to load data at startup: %s", err)
     sys.exit(1)
 
 app = Flask(__name__)
+swagger = Swagger(app)
 
-@app.route("/", methods=["GET", "POST"])
-def home():
-    """Main route for company matcher form and results."""
+@app.route("/")
+def root():
+    return redirect("/apidocs")
+
+@app.route("/", methods=["GET"])
+def home_form():
+    # Render your HTML form here
+    return '''
+    <form method="post" action="/match">
+        <input type="text" name="name" placeholder="Enter company name" required>
+        <input type="submit" value="Match">
+    </form>
+    '''
+
+@app.route("/match", methods=["POST"])
+def match_api():
+    """
+    Company Matcher Endpoint
+    ---
+    consumes:
+      - application/x-www-form-urlencoded
+    parameters:
+      - name: name
+        in: formData
+        type: string
+        required: true
+        description: The company name to match
+    responses:
+      200:
+        description: Returns the best match and ticker info
+    """
     result = None
     error_message = None
     try:
-        if request.method == "POST":
-            name = request.form.get("name")
-            if not name:
-                error_message = "No company name provided."
-            else:
-                try:
-                    #Starts time then Calls best match function and returns result
-                    start = time.time()  # Start timing
-                    (
-                        match_name,
-                        predicted_ticker,
-                        all_possible_tickers,
-                        score,
-                        ticker_score,
-                        message,
-                        top_matches,
-                    ) = data_utils.best_match(name, tickers_df)
-                    end = time.time()  # End timing
-                    api_latency = end - start
-                    logging.info(
-                        "API Latency for '%s': %.4f seconds", name, api_latency
-                    )
-                    result = {
-                        "input_name": name,
-                        "matched_name": match_name,
-                        "predicted_ticker": predicted_ticker,
-                        "all_possible_tickers": all_possible_tickers,
-                        "match_score": score,
-                        "ticker_score": ticker_score,
-                        "message": message,
-                        "top_matches": top_matches,
-                    }
-                except Exception as err:
-                    logging.error("Error during matching: %s", err)
-                    error_message = (
-                        "An error occurred during matching. Please try again."
-                    )
-                    #if error occurs, sets error message error handling
+        name = request.form.get("name")
+        if not name:
+            error_message = "No company name provided."
+        else:
+            try:
+                start = time.time()
+                (
+                    match_name,
+                    predicted_ticker,
+                    all_possible_tickers,
+                    score,
+                    ticker_score,
+                    message,
+                    top_matches,
+                ) = data_utils.best_match(name, tickers_df)
+                end = time.time()
+                api_latency = end - start
+                logging.info(
+                    "API Latency for '%s': %.4f seconds", name, api_latency
+                )
+                result = {
+                    "input_name": name,
+                    "matched_name": match_name,
+                    "predicted_ticker": predicted_ticker,
+                    "all_possible_tickers": all_possible_tickers,
+                    "match_score": score,
+                    "ticker_score": ticker_score,
+                    "message": message,
+                    "top_matches": top_matches,
+                }
+            except Exception as err:
+                logging.error("Error during matching: %s", err)
+                error_message = (
+                    "An error occurred during matching. Please try again."
+                )
     except Exception as err:
         logging.error("Unexpected error in home route: %s", err)
         error_message = "An unexpected error occurred. Please try again."
-    #styling for error message
     result_html = ""
     if error_message:
         result_html = (
             f"<div class='result' style='color:red;'><b>Error:</b> {error_message}</div>"
         )
     elif result:
-        #If result then checks if predicted ticker is a list or none. If list then joins the list into a string else sets to none
-        # Handle predicted_ticker as a single value or None
         ticker_display = result["predicted_ticker"]
         if isinstance(ticker_display, list):
             if len(ticker_display) == 0:
@@ -88,7 +113,6 @@ def home():
                 ticker_display = ", ".join(ticker_display)
         elif ticker_display is None:
             ticker_display = "None"
-        # Handle all_possible_tickers as a list
         all_possible_tickers_display = ""
         if (
             isinstance(result["all_possible_tickers"], list)
@@ -102,7 +126,6 @@ def home():
             f"<div class='result' style='color:orange;'><b>Note:</b> {result['message']}</div>"
             if result.get("message") else ""
         )
-        # Add top matches HTML
         top_matches_html = ""
         if result.get("top_matches"):
             top_matches_html = (
@@ -119,10 +142,9 @@ def home():
             f"<b>Ticker Match Score:</b> {result['ticker_score']}<br>"
             f"{all_possible_tickers_display}"
             f"{message_html}"
-            f"{top_matches_html}"  # Add top matches to the output
+            f"{top_matches_html}"
             f"</div>"
         )
-
     html = f"""
         <html>
             <head>
@@ -159,9 +181,15 @@ def home():
     response.headers["X-API-Version"] = APP_VERSION
     return response
 
-@app.route("/update_tickers", methods=["POST"])
+@app.route("/update_tickers", methods=["GET"])
 def update_tickers():
-    """Route to update tickers dataset by running update_tickers.py."""
+    """
+    Update Tickers Dataset
+    ---
+    responses:
+      200:
+        description: Tickers updated successfully or error message
+    """
     try:
         subprocess.run(["python3", "update_tickers.py"], check=True)
         message = "Tickers updated successfully."
